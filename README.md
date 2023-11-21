@@ -1,2 +1,1 @@
-# alexastudiocreation
-a portfolio application 
+# WordPress website - AlexaStudioCreation
