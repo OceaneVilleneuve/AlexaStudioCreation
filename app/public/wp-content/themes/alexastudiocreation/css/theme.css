@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Nixie+One&display=swap');
+/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+  font-family: 'Nixie One';
+}
+/* On applique un gris plus clair sur les paragraphes */
+p {
+  color: #000;
+}
+/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
+.hover-effect img {
+  transition: all 0.33s ease-in-out;
+  transform: scale(1) translateY(0px);
+}
+.hover-effect img:hover {
+  transition: all 0.33s ease-in-out;
+  transform: scale(1.05) translateY(-10px);
+}
+
+#site-header.sticky-top {
+  font-family: 'Italianno', cursive;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+
+.site-title a {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+  font-family: 'Italianno', cursive;
+  font-size: 2em;
+  font-weight: 200;
+    &:hover {
+      text-decoration: none;
+    }
+}
+
+li.menu-item a {
+  color: #000000 !important;
+}

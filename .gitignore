@@ -46,3 +46,30 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+.sass-cache
+.scss-cache
+scss/.sass-cache/
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+.idea/
+_book
+nbproject
+nbproject/private
+nbbuild/
+dist/
+nbdist/
+nbaction.xml
+.nb-grable/
+*.log
+npm-debug.lognode_modules
+.DS_Store
+**/.DS_Store
+*.map
+.greyhr
+Thumbs.debug
+sftp-config.json
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,649 @@
+# Translation of Themes - Twenty Twenty-Four in French (France)
+# This file is distributed under the same license as the Themes - Twenty Twenty-Four package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-27 07:29:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Twenty Twenty-Four\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Four"
+msgstr "Twenty Twenty-Four"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4."
+msgstr "Twenty Twenty-Four est conçu pour être flexible, polyvalent et applicable à n’importe quel type de site. Sa collection de modèles et de compositions s’adapte à différents besoins, tels que la présentation d’une entreprise, la création d’un blog et la rédaction ou la présentation d’un projet. Une multitude de possibilités s’ouvrent avec juste quelques ajustements de couleur et de typographie. Twenty Twenty-Four est livré avec des variations de style et des conceptions de page complètes pour accélérer le processus de création de site. Le thème est entièrement compatible avec l’éditeur de site et tire parti des nouveaux outils de conception introduits dans WordPress 6.4."
+
+#. Author URI of the theme
+#. Translators: WordPress link.
+#: patterns/footer-centered-logo-nav.php:21
+#: patterns/footer-colophon-3-col.php:90 patterns/footer.php:116
+msgid "https://wordpress.org"
+msgstr "https://fr.wordpress.org"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Pied de page"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "En-tête"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json styles/fossil.json styles/ice.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: theme.json styles/fossil.json styles/ice.json styles/maelstrom.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Moyenne"
+
+#: theme.json styles/fossil.json styles/ice.json styles/maelstrom.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json styles/fossil.json styles/ice.json styles/maelstrom.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Très grande"
+
+#: theme.json styles/ember.json styles/fossil.json styles/ice.json
+#: styles/maelstrom.json styles/mint.json styles/onyx.json styles/rust.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "Contraste"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr "Métas de la publication"
+
+#: theme.json styles/ember.json styles/fossil.json styles/ice.json
+#: styles/maelstrom.json styles/mint.json styles/onyx.json styles/rust.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Base"
+
+#: patterns/cta-content-image-on-right.php:46
+msgctxt "Button text of this section"
+msgid "How it works"
+msgstr "Fonctionnement"
+
+#: patterns/cta-pricing.php:17
+msgctxt "Sample heading for pricing pattern"
+msgid "Our Services"
+msgstr "Nos services"
+
+#: patterns/cta-pricing.php:10
+msgctxt "Name for the pricing pattern"
+msgid "Pricing Table"
+msgstr "Tableau de prix"
+
+#: patterns/cta-pricing.php:86
+msgctxt "Button text for the first pricing level"
+msgid "Subscribe"
+msgstr "S’abonner"
+
+#: patterns/cta-services-image-left.php:38
+msgctxt "Sample button text to view the services"
+msgid "Our services"
+msgstr "Nos services"
+
+#: patterns/cta-subscribe-centered.php
+msgctxt "Pattern title"
+msgid "Centered call to action"
+msgstr "Appel à l’action centré"
+
+#: patterns/footer-colophon-3-col.php:38
+msgid "Contact"
+msgstr "Contact"
+
+#: patterns/footer-colophon-3-col.php:41
+msgctxt "Example email in site footer"
+msgid "info@example.com"
+msgstr "info@example.com"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with wide Image"
+msgstr "Page avec image large"
+
+#: patterns/footer-colophon-3-col.php:56
+msgid "Follow"
+msgstr "Suivre"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page With Sidebar"
+msgstr "Page avec colonne latérale"
+
+#: patterns/footer-colophon-3-col.php:59
+msgid "Instagram"
+msgstr "Instagram"
+
+#: patterns/footer-colophon-3-col.php:59
+msgid "Facebook"
+msgstr "Facebook"
+
+#: patterns/footer-colophon-3-col.php:81
+msgid "&copy;"
+msgstr "&copy;"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page No Title"
+msgstr "Page sans titre"
+
+#: patterns/footer.php:63 patterns/footer.php:69
+msgid "Privacy"
+msgstr "Confidentialité"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: patterns/footer.php:85
+msgid "Social"
+msgstr "Réseaux sociaux"
+
+#: patterns/footer.php:91
+msgid "Social Media"
+msgstr "Réseaux sociaux"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: patterns/hidden-404.php:10
+msgctxt "Heading for a webpage that is not found"
+msgid "Page Not Found"
+msgstr "Page introuvable"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr "Commentaires"
+
+#: patterns/hidden-comments.php:12
+msgid "Comments"
+msgstr "Commentaires"
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "No results"
+msgstr "Aucun résultat"
+
+#: patterns/text-title-left-image-right.php:34
+msgctxt "Call to Action button text"
+msgid "About us"
+msgstr "A propos de nous"
+
+#: patterns/text-title-left-image-right.php:27
+msgctxt "Description for the About pattern"
+msgid "Leaving an indelible mark on the landscape of tomorrow."
+msgstr "Laisser une marque indélébile sur le paysage de demain."
+
+#: patterns/hidden-no-results.php:9
+msgctxt "Message explaining that there are no results returned from a search"
+msgid "No posts were found."
+msgstr "Aucune publication n’a été trouvée."
+
+#: patterns/hidden-post-meta.php:20
+msgctxt "Prefix for the post author block: By author name"
+msgid "by"
+msgstr "par"
+
+#: patterns/hidden-post-meta.php:25
+msgctxt "Prefix for the post category block: in category name"
+msgid "in "
+msgstr "dans"
+
+#: patterns/hidden-post-navigation.php:9 patterns/hidden-post-navigation.php:10
+#: patterns/template-index-portfolio.php:16
+msgid "Posts"
+msgstr "Publications"
+
+#: patterns/hidden-post-navigation.php:11
+msgctxt "Label before the title of the previous post. There is a space after the colon."
+msgid "Previous: "
+msgstr "Précédente : "
+
+#: patterns/hidden-post-navigation.php:12
+msgctxt "Label before the title of the next post. There is a space after the colon."
+msgid "Next: "
+msgstr "Suivante : "
+
+#: patterns/hidden-search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr "Recherche"
+
+#: patterns/hidden-search.php:9 patterns/hidden-sidebar.php:75
+msgctxt "search form label"
+msgid "Search"
+msgstr "Rechercher"
+
+#: patterns/hidden-search.php:9
+msgctxt "search button text"
+msgid "Search"
+msgstr "Rechercher"
+
+#: patterns/hidden-sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: patterns/hidden-sidebar.php:17
+msgid "About the author"
+msgstr "À propos de l’auteur/autrice"
+
+#: patterns/hidden-sidebar.php:33
+msgid "Popular Categories"
+msgstr "Catégories populaires"
+
+#: patterns/hidden-sidebar.php:49
+msgid "Useful Links"
+msgstr "Liens utiles"
+
+#: patterns/page-about-business.php
+msgctxt "Pattern title"
+msgid "About"
+msgstr "À propos"
+
+#: patterns/team-4-col.php:43
+msgctxt "Sample name of a team member"
+msgid "Francesca Piovani"
+msgstr "Francesca Piovani"
+
+#: patterns/team-4-col.php:48
+msgctxt "Sample role of a team member"
+msgid "Founder, CEO & Architect"
+msgstr "Fondatrice, CEO et architecte"
+
+#: patterns/text-title-left-image-right.php:20
+msgctxt "Headline for the About pattern"
+msgid "Études offers comprehensive consulting, management, design, and research solutions. Every architectural endeavor is an opportunity to shape the future."
+msgstr "Études propose des solutions complètes de conseil, de gestion, de conception et de recherche. Chaque projet d’architecture est une opportunité de façonner l’avenir."
+
+#: patterns/text-faq.php
+msgctxt "Pattern title"
+msgid "FAQ"
+msgstr "FAQ"
+
+#: patterns/text-faq.php:11
+msgctxt "Name of the FAQ pattern"
+msgid "FAQs"
+msgstr "FAQ"
+
+#: patterns/text-faq.php:14
+msgctxt "Heading of the FAQs"
+msgid "FAQs"
+msgstr "FAQ"
+
+#: patterns/text-feature-grid-3-col.php:38
+msgctxt "Sample feature heading"
+msgid "Renovation and restoration"
+msgstr "Rénovation et restauration"
+
+#: patterns/text-project-details.php
+msgctxt "Pattern title"
+msgid "Project details"
+msgstr "Détails du projet"
+
+#: theme.json styles/fossil.json styles/maelstrom.json
+msgctxt "Font family name"
+msgid "Cardo"
+msgstr "Cardo"
+
+#: theme.json styles/fossil.json styles/ice.json styles/maelstrom.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Petite"
+
+#: theme.json styles/fossil.json styles/ice.json styles/maelstrom.json
+msgctxt "Font size name"
+msgid "Extra Extra Large"
+msgstr "Très très grand"
+
+#: styles/ice.json
+msgctxt "Style variation name"
+msgid "Ice"
+msgstr "Glace"
+
+#: styles/onyx.json
+msgctxt "Style variation name"
+msgid "Onyx"
+msgstr "Onyx"
+
+#: patterns/text-feature-grid-3-col.php:23
+msgctxt "Sub-heading of the features"
+msgid "Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to commercial developers."
+msgstr "Notre gamme complète de services professionnels s’adresse à une clientèle diversifiée, allant des propriétaires aux promotrices ou promoteurs commerciaux."
+
+#: patterns/text-feature-grid-3-col.php:15
+msgctxt "Heading of the features"
+msgid "A passion for creating spaces"
+msgstr "Une passion pour la création d’espaces"
+
+#: theme.json styles/ember.json styles/fossil.json styles/ice.json
+#: styles/maelstrom.json styles/mint.json
+msgctxt "Font family name"
+msgid "System Serif"
+msgstr "System Serif"
+
+#: theme.json styles/ember.json styles/fossil.json styles/ice.json
+#: styles/maelstrom.json styles/mint.json
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr "System Sans-serif"
+
+#: styles/ember.json styles/ice.json styles/maelstrom.json styles/mint.json
+msgctxt "Font family name"
+msgid "Jost"
+msgstr "Jost"
+
+#: styles/ember.json styles/mint.json
+msgctxt "Font family name"
+msgid "Instrument Sans"
+msgstr "Instrument Sans"
+
+#: theme.json styles/ember.json styles/fossil.json styles/ice.json
+#: styles/maelstrom.json styles/mint.json styles/onyx.json
+msgctxt "Color name"
+msgid "Base / Two"
+msgstr "Base / Deux"
+
+#: styles/ember.json styles/maelstrom.json
+msgctxt "Color name"
+msgid "Contrast / 2"
+msgstr "Contraste / 2"
+
+#: styles/rust.json
+msgctxt "Color name"
+msgid "Base / 2"
+msgstr "Base / 2"
+
+#: functions.php:28
+msgid "Arrow icon"
+msgstr "Icône flèche"
+
+#: patterns/banner-project-description.php:40
+msgid "Hyatt Regency San Francisco, San Francisco, United States"
+msgstr "Hyatt Regency San Francisco, San Francisco, États-Unis d’Amérique"
+
+#: patterns/banner-project-description.php:16
+msgctxt "Sample title for a project or post"
+msgid "Art Gallery — Overview"
+msgstr "Galerie d’art — Aperçu"
+
+#: patterns/banner-hero.php
+msgctxt "Pattern title"
+msgid "Hero"
+msgstr "Bannière d’accroche"
+
+#: functions.php:93
+msgid "With arrow"
+msgstr "Avec flèche"
+
+#: functions.php:74
+msgid "Checkmark"
+msgstr "Coche"
+
+#: functions.php:111
+msgid "With asterisk"
+msgstr "Avec astérisque"
+
+#: patterns/cta-content-image-on-right.php
+msgctxt "Pattern title"
+msgid "Call to action with image on right"
+msgstr "Appel à l’action avec image à droite"
+
+#: patterns/banner-project-description.php
+msgctxt "Pattern title"
+msgid "Project description"
+msgstr "Description du projet"
+
+#: patterns/banner-hero.php:36
+msgctxt "Button text of the hero section"
+msgid "About us"
+msgstr "À propos"
+
+#: patterns/cta-rsvp.php
+msgctxt "Pattern title"
+msgid "RSVP"
+msgstr "RSVP"
+
+#: patterns/gallery-full-screen-image.php
+msgctxt "Pattern title"
+msgid "Full screen image"
+msgstr "Image plein écran"
+
+#: patterns/footer.php:40 patterns/footer.php:46
+msgid "About"
+msgstr "À propos"
+
+#. Translators: Designed with WordPress
+#: patterns/footer-centered-logo-nav.php:24
+#: patterns/footer-colophon-3-col.php:93 patterns/footer.php:119
+msgid "Designed with %1$s"
+msgstr "Conçu avec %1$s"
+
+#: patterns/footer-centered-logo-nav.php
+msgctxt "Pattern title"
+msgid "Footer with centered logo and navigation"
+msgstr "Pied de page avec logo centré et navigation"
+
+#: patterns/cta-subscribe-centered.php:30
+msgctxt "Sample text for Sign Up Button"
+msgid "Sign up"
+msgstr "S’inscrire"
+
+#: patterns/cta-subscribe-centered.php:23
+msgctxt "Sample text for Subscriber Description"
+msgid "Stay in the loop with everything you need to know."
+msgstr "Restez au courant de tout ce que vous devez savoir."
+
+#: patterns/cta-subscribe-centered.php:19
+msgctxt "Sample text for Subscriber Heading with numbers"
+msgid "Join 900+ subscribers"
+msgstr "Rejoignez plus de 900 abonnés/abonnées"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and pastel blue"
+msgstr "Noir et bleu pastel"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and sage"
+msgstr "Noir et sauge"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and steel"
+msgstr "Gris foncé et acier"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and olive"
+msgstr "Gris foncé et olive"
+
+#: styles/onyx.json
+msgctxt "Duotone name"
+msgid "Dark gray and cinnamon"
+msgstr "Gris foncé et cannelle"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical slate to ice"
+msgstr "Vertical ardoise vers glace"
+
+#: styles/ice.json
+msgctxt "Gradient name"
+msgid "Vertical azure to ice"
+msgstr "Vertical azur vers glace"
+
+#: theme.json styles/fossil.json styles/ice.json styles/mint.json
+#: styles/onyx.json
+msgctxt "Color name"
+msgid "Contrast / Three"
+msgstr "Contraste / Trois"
+
+#: theme.json styles/fossil.json styles/ice.json styles/mint.json
+#: styles/onyx.json
+msgctxt "Color name"
+msgid "Contrast / Two"
+msgstr "Contraste / Deux"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical sable to beige"
+msgstr "Vertical sable vers beige"
+
+#: styles/ember.json styles/fossil.json
+msgctxt "Gradient name"
+msgid "Vertical taupe to beige"
+msgstr "Vertical taupe vers beige"
+
+#: patterns/text-centered-statement.php
+msgctxt "Pattern title"
+msgid "Centered statement"
+msgstr "Déclaration centrée"
+
+#: patterns/text-centered-statement-small.php
+msgctxt "Pattern title"
+msgid "Centered statement, small"
+msgstr "Déclaration centrée, petite"
+
+#: styles/rust.json
+msgctxt "Style variation name"
+msgid "Rust"
+msgstr "Rouille"
+
+#: theme.json styles/onyx.json
+msgctxt "Color name"
+msgid "Accent / Five"
+msgstr "Accent / Cinq"
+
+#: theme.json styles/onyx.json
+msgctxt "Color name"
+msgid "Accent / Four"
+msgstr "Accent / Quatre"
+
+#: theme.json styles/onyx.json
+msgctxt "Color name"
+msgid "Accent / Three"
+msgstr "Accent / Trois"
+
+#: theme.json styles/onyx.json
+msgctxt "Color name"
+msgid "Accent / Two"
+msgstr "Accent / Deux"
+
+#: theme.json styles/onyx.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr "Accent"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and white"
+msgstr "Noir et blanc"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and sandstone"
+msgstr "Noir et grès"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and rust"
+msgstr "Noir et rouille"
+
+#: styles/rust.json
+msgctxt "Duotone name"
+msgid "Dark rust to beige"
+msgstr "Rouille sombre vers beige"
+
+#: styles/rust.json
+msgctxt "Gradient name"
+msgid "Vertical transparent rust to beige"
+msgstr "Vertical rouille transparent vers beige"
+
+#: styles/rust.json
+msgctxt "Gradient name"
+msgid "Vertical rust to beige"
+msgstr "Vertical rouille vers beige"
+
+#: styles/mint.json
+msgctxt "Style variation name"
+msgid "Mint"
+msgstr "Menthe"
+
+#: styles/ember.json
+msgctxt "Duotone name"
+msgid "Orange and white"
+msgstr "Orange et blanc"
+
+#: patterns/cta-pricing.php:202
+msgctxt "Button text for the third pricing level"
+msgid "Subscribe"
+msgstr "S’abonner"
+
+#: patterns/cta-pricing.php:144
+msgctxt "Button text for the second pricing level"
+msgid "Subscribe"
+msgstr "S’abonner"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "L’équipe WordPress"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentyfour/"
+msgstr "https://wordpress.org/themes/twentytwentyfour/"
