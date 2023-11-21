@@ -1,3 +1,11 @@
-</body>
-  <!-- <?php echo get_option('alexastudiocreation_settings_field_introduction') ?> -->
+<?php
+/**
+ * Footer template.
+ *
+ * @package Alexastudiocreation
+ */
+?>
+
+<footer>footer</footer>
+  </body>
 </html>
