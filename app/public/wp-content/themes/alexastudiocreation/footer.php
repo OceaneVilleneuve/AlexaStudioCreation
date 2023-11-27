@@ -1,11 +1,13 @@
 <?php
 /**
- * Footer template.
- *
- * @package Alexastudiocreation
- */
+* Footer template.
+*
+* @package Alexastudiocreation
+*/
 ?>
 
 <footer>footer</footer>
-  </body>
+
+<?php wp_footer(); ?>
+</body>
 </html>
