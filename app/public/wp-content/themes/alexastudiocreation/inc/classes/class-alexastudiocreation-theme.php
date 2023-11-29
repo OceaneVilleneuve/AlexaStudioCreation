@@ -28,5 +28,11 @@ class ALEXASTUDIOCREATION_THEME {
     /**
      * Actions.
      */
+    add_action( 'after_setup_theme', [ $this, 'setup_theme' ] );
+  }
+
+  public function setup_theme() {
+    add_theme_support( 'title-tag' );
+
   }
 }
