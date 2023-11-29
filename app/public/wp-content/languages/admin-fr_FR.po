@@ -106,7 +106,7 @@ msgstr "Lorsque vous utilisez les actions groupées, vous pouvez modifier les m�
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "<a href=\"%1$s\" hreflang=\"en\">Lisez les notes de version de WordPress %2$s</a> pour obtenir des informations sur l’installation, les améliorations, les problèmes corrigés, les contributeurs et contributrices de la version, les ressources d’apprentissage et la liste des modifications apportées aux fichiers."
 
-#. translators: %s: WordPress Field Guide link.
+#. translators: 1: WordPress Field Guide link, 2: WordPress version number.
 #: wp-admin/about.php:276
 msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "Explorez le <a href=\"%1$s\">Guide des changements techniques de WordPress %2$s</a>. Découvrez les changements de cette version avec les notes détaillées des développeurs et développeuses qui vous aident à construire avec WordPress."
