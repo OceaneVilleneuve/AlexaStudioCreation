@@ -7,7 +7,7 @@
 get_header();
 ?>
 
-<div class="conten">
+<div class="content">
   Content
 </div>
 

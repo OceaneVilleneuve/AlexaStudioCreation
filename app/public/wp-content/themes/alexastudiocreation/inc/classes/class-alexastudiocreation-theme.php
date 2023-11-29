@@ -17,10 +17,16 @@ class ALEXASTUDIOCREATION_THEME {
     // wp_die('Hello');
 
     //  load class.
-    $this->set_hooks();
+
+    Assets::get_instance();
+
+    $this->setup_hooks();
   }
 
-  protected function set_hooks() {
-    //  actions and filters.
+  protected function setup_hooks() {
+
+    /**
+     * Actions.
+     */
   }
 }
