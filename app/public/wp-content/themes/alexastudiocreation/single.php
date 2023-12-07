@@ -8,7 +8,7 @@ get_header();
 ?>
 
 <div class="content">
-  <?php esc_html_e( 'Content Index', 'alexastudiocreation' ); ?>
+  <?php esc_html_e( 'Single post', 'alexastudiocreation' ); ?>
 </div>
 
 <?php
