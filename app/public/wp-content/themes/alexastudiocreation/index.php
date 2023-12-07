@@ -10,7 +10,7 @@ get_header();
 <div id="primary">
 		<main id="main" class="site-main mt-5" role="main">
 			<?php
-			if ( have_posts() ) {
+			if ( have_posts() ) :
 				?>
 				<div class="container">
 					<?php
@@ -24,16 +24,42 @@ get_header();
 						<?php
 					}
 					?>
+            <div class="row">
+              <?php
+              $index = 0;
+              $nb_of_columns = 3;
+
+              // Start the loop.
+                while ( have_posts() ) : the_post();
+
+                if ( 0 === $index % $nb_of_columns ) {
+                  ?>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                  <?php
+                }
+
+                get_template_part( 'template-parts/content' );
+
+                $index++;
+
+                if ( 0 !== $index && 0 === $index % $nb_of_columns ) {
+                  ?>
+                    </div>
+                  <?php
+                }
+                endwhile;
+                ?>
+            </div>
+          </div>
           <?php
-						while ( have_posts() ) : the_post();
 
-							the_title();
-              the_content();
+          else :
 
-						endwhile;
-          }
+            get_template_part( 'template-parts/content-none' );
+
+          endif;
+
 						?>
-					</div>
 				</div>
 		</main>
 	</div>
