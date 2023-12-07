@@ -25,56 +25,58 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <?php
-    if ( ! empty( $header_menus ) && is_array( $header_menus ) ) {
-      ?>
-        <ul class="">
-          <?php
-            foreach ( $header_menus as $menu_item ) {
-              if ( ! $menu_item->menu_item_parent ) {
-
-                $child_menu_items = $menu_class->get_child_menu_items( $header_menus, $menu_item->ID );
-                $has_children = ! empty( $child_menu_items ) && is_array( $child_menu_items );
-
-                if ( ! $has_children ) {
-                  ?>
-                  <!-- Parent Menu -->
-                  <li>
-                    <a class="nav-link" href="<?php echo esc_url( $menu_item->url ); ?>">
-                      <?php echo esc_html( $menu_item->title ); ?>
-                    </a>
-                  </li>
-                  <?php
-                } else {
-                  ?>
-                  <!-- Parent Menu with Toggler -->
-                  <li class="nav-item">
-                    <a class="nav-link" href="<?php echo esc_url($menu_item->url); ?>" data-bs-toggle="collapse" data-bs-target="#childMenu<?php echo $menu_item->ID; ?>">
-                      <?php echo esc_html($menu_item->title); ?>
-                    </a>
-                    <!-- Child Menu -->
-                    <div class="collapse" id="childMenu<?php echo $menu_item->ID; ?>">
-                      <?php
-                      foreach ($child_menu_items as $child_menu_item) {
-                        ?>
-                        <a class="nav-link" href="<?php echo esc_url($child_menu_item->url); ?>">
-                          <?php echo esc_html($child_menu_item->title); ?>
-                        </a>
-                        <?php
-                      }
-                      ?>
-                    </div>
-                  </li>
-                  <?php
-                }
-              ?>
-              <?php
-            }
-          }
-        ?>
-      </ul>
+    <div class="container">
       <?php
-    }
-    ?>
+      if ( ! empty( $header_menus ) && is_array( $header_menus ) ) {
+        ?>
+          <ul class="">
+            <?php
+              foreach ( $header_menus as $menu_item ) {
+                if ( ! $menu_item->menu_item_parent ) {
+
+                  $child_menu_items = $menu_class->get_child_menu_items( $header_menus, $menu_item->ID );
+                  $has_children = ! empty( $child_menu_items ) && is_array( $child_menu_items );
+
+                  if ( ! $has_children ) {
+                    ?>
+                    <!-- Parent Menu -->
+                    <li>
+                      <a class="nav-link" href="<?php echo esc_url( $menu_item->url ); ?>">
+                        <?php echo esc_html( $menu_item->title ); ?>
+                      </a>
+                    </li>
+                    <?php
+                  } else {
+                    ?>
+                    <!-- Parent Menu with Toggler -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="<?php echo esc_url($menu_item->url); ?>" data-bs-toggle="collapse" data-bs-target="#childMenu<?php echo $menu_item->ID; ?>">
+                        <?php echo esc_html($menu_item->title); ?>
+                      </a>
+                      <!-- Child Menu -->
+                      <div class="collapse" id="childMenu<?php echo $menu_item->ID; ?>">
+                        <?php
+                        foreach ($child_menu_items as $child_menu_item) {
+                          ?>
+                          <a class="nav-link" href="<?php echo esc_url($child_menu_item->url); ?>">
+                            <?php echo esc_html($child_menu_item->title); ?>
+                          </a>
+                          <?php
+                        }
+                        ?>
+                      </div>
+                    </li>
+                    <?php
+                  }
+                ?>
+                <?php
+              }
+            }
+          ?>
+        </ul>
+        <?php
+      }
+      ?>
+    </div>
   </div>
 </div>
