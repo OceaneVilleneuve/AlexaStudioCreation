@@ -18,6 +18,7 @@ if ( ! defined ( 'ALEXASTUDIOCREATION_DIR_URI' )) {
 }
 
 require_once ALEXASTUDIOCREATION_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once ALEXASTUDIOCREATION_DIR_PATH . '/inc/helpers/template-tags.php';
 
 
 // CALLING THE CALLED INSTANCE OF SINGLETON TO CHECK IF EXISTS:
@@ -31,7 +32,3 @@ alexastudiocreation_get_theme_instance();
 // echo '<pre>';
 // print_r(filemtime( get_stylesheet_directory() . '/style.css' ) );
 // wp_die();
-
-
-
-add_action('wp_enqueue_scripts', 'alexastudiocreation_enqueue_scripts');

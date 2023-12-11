@@ -8,3 +8,8 @@ Version: 1.0
 Tags: alexa
 Text Domain: AlexaStudioCreation
 */
+
+img {
+  width: 100%;
+  height: auto;
+}
