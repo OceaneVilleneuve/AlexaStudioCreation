@@ -56,6 +56,12 @@ class ALEXASTUDIOCREATION_THEME {
 
     add_editor_style();
     add_theme_support( 'wp-block-styles' );
+    add_theme_support(  'posr-thumbnails' );
+
+    /**
+     * Register image sizes.
+     */
+    add_image_size( 'featured-large', 353, 233, true );
 
     add_theme_support( 'align-wide' );
 
