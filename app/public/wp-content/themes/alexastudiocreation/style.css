@@ -23,6 +23,17 @@ body {
   background-position: center;
 }
 
+/* Remplacez l'image sur les écrans plus petits (mobiles) */
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url('/wp-content/themes/alexastudiocreation/background-small.png');
+    background-size: cover;
+    background-attachment: fixed; /* assure un effet de parallaxe */
+    background-position: center;
+
+  }
+}
+
 /* MENU */
 
 .button:focus {
@@ -39,6 +50,11 @@ body {
   font-size: 37px;
   height: 1em;
   &:hover {
+    color: black;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nav-bar-icon {
     color: black;
   }
 }
@@ -105,7 +121,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  /* Ajoutez la taille de police mobile souhaitée ici */
   .link-to-home {
       font-size: 48px;
       margin-left: 9px;
@@ -115,7 +130,7 @@ body {
     margin-left: 9px;
   }
   .margin-title-header {
-    margin-top: 2em;
+    margin-top: 36px;
   }
   .nav-bar-icon {
     font-size: 30px;
@@ -123,6 +138,26 @@ body {
 }
 
 /* FRONT PAGE */
+
+/* FRONT PAGE */
+
+@media only screen and (max-width: 767px) {
+  .col-lg-4 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .thumbnail-container {
+    text-align: center;
+  }
+
+  .custom-thumbnail {
+    display: inline-block;
+    width: 80%; /* Ajustez la largeur des thumbnails selon vos besoins */
+    height: auto;
+    margin: 0 auto; /* Ajustez cette ligne pour centrer horizontalement */
+  }
+}
 
 .col-lg-4 {
   margin: 0;
@@ -140,6 +175,14 @@ body {
     transition: filter 0.3s ease;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .thumbnail-container {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
 .thumbnail-container {
   position: relative;
   &:hover .custom-thumbnail {
@@ -201,4 +244,19 @@ body {
   left: 50%;
   z-index: 2;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-button {
+    display: block;
+    margin: 0px auto; /* Ajoutez une marge pour plus de contrôle */
+    text-align: center;
+    width: 35%; /* Ajustez la largeur selon vos besoins */
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 10%;
+    position: sticky;
+    position: -webkit-sticky;
+  }
 }
