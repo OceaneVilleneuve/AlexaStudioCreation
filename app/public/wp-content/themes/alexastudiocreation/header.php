@@ -1,9 +1,9 @@
 <?php
 /**
-* Header template.
-*
-* @package Alexastudiocreation
-*/
+ * Header template.
+ *
+ * @package Alexastudiocreation
+ */
 ?>
 
 <!doctype html>
@@ -18,6 +18,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 </head>
 <body <?php body_class(); ?>>
 
@@ -40,3 +42,17 @@ if ( function_exists( 'wp_body_open' ) ) {
     <span></span>
   </div>
   <div id="content" class="site-content">
+
+  <script>
+   jQuery(document).ready(function($) {
+    var $grid = $('.front-page-content .grid').isotope({
+        itemSelector: '.col-lg-4',
+        layoutMode: 'fitRows'
+    });
+
+    $grid.imagesLoaded().progress(function() {
+        $grid.isotope('layout');
+    });
+});
+
+</script>

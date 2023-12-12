@@ -7,6 +7,7 @@
 
 
 
+
 // ABSOLUTE PATH OF THEME :
 
 if ( ! defined( 'ALEXASTUDIOCREATION_DIR_PATH' ) ) {
@@ -22,12 +23,14 @@ require_once ALEXASTUDIOCREATION_DIR_PATH . '/inc/helpers/autoloader.php';
 require_once ALEXASTUDIOCREATION_DIR_PATH . '/inc/helpers/template-tags.php';
 
 
+
 // CALLING THE CALLED INSTANCE OF SINGLETON TO CHECK IF EXISTS:
 function alexastudiocreation_get_theme_instance() {
   \ALEXASTUDIOCREATION_THEME\Inc\ALEXASTUDIOCREATION_THEME::get_instance();
 }
 
 alexastudiocreation_get_theme_instance();
+
 
 
 // TEST DU FILEMTIME :

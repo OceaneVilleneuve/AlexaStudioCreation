@@ -9,6 +9,12 @@ Tags: alexa
 Text Domain: AlexaStudioCreation
 */
 
+
+button {
+  all: unset; /* ou "all: initial;" */
+}
+
+
 /* MENU */
 
 .button:focus {
@@ -69,7 +75,7 @@ Text Domain: AlexaStudioCreation
   font-size: 15px;
 }
 
-/*  Header */
+/*  HEADER */
 
 .link-to-home {
   text-decoration: none;
@@ -106,4 +112,64 @@ Text Domain: AlexaStudioCreation
   .nav-bar-icon {
     font-size: 30px;
   }
+}
+
+/* FRONT PAGE */
+
+.col-lg-4 {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-thumbnail {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  padding: 20px;
+
+  &:hover{
+    filter:blur(3px);
+    transition: filter 0.3s ease;
+  }
+}
+.thumbnail-container {
+  position: relative;
+  &:hover .custom-thumbnail {
+    filter: blur(3px);
+    transition: filter 0.3s ease; /* Maintient le flou même lorsque le conteneur est survolé */
+}
+  &:hover .custom-button-for-home {
+    opacity: 1; /* Affiche le bouton lorsque la classe custom-thumbnail est survolée */
+    transition: opacity 0.8s ease;
+  }
+
+}
+
+.custom-button-for-home {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  bottom: 50%; /* Ajustez cette valeur selon votre préférence pour le positionnement vertical */
+  left: 50%; /* Place le bouton au centre horizontal du conteneur */
+  transform: translateX(-50%); /* Centre précisément le bouton */
+}
+
+.front-page-content {
+  margin-top: 3em;
+}
+
+.custom-button-for-home {
+  padding: 15px;
+  border-radius: 50px;
+  font-family: 'Nixie One';
+  font-size: 16px;
+  color: black;
+  width: 115px;
+  text-align: center;
+  background-color: white;
+}
+
+
+.isotope-item {
+  transition-duration: 0.3s;
 }
