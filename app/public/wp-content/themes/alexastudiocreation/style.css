@@ -9,13 +9,33 @@ Tags: alexa
 Text Domain: AlexaStudioCreation
 */
 
-.color-button-nav {
-  color: black;
+
+.button:focus {
+  outline: none;
+}
+
+.nav-button-placement {
+  margin-top: 3em;
+  margin-left: 1em;
+}
+
+.nav-bar-icon {
+  color: #605B5B;
+  font-size: 2em;
+  height: 1em;
+  &:hover {
+    color: black;
+  }
 }
 
 .offcanvas-body {
   background-color: #E0D0F4;
   font-family: 'Nixie One';font-size: 22px;
+}
+
+.button-custom-nav-open {
+  margin-top: 2em;
+  margin-left: 1em;
 }
 
 .ul-nav {
@@ -34,4 +54,8 @@ Text Domain: AlexaStudioCreation
 .offcanvas-header {
   background-color: #E0D0F4;
   border: none;
+}
+
+.icon-menu-plus {
+  font-size: 15px;
 }

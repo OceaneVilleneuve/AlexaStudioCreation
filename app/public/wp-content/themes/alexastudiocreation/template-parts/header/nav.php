@@ -11,20 +11,20 @@ $header_menu_id = $menu_class->get_menu_id( 'alexastudiocreation-header-menu' );
 //  GET ALL THE MENU ITEMS.
 $header_menus = wp_get_nav_menu_items( $header_menu_id );
 
+
+
 // PRINT ALL THE MENU ITEMS.
 // echo '<pre>';
 // print_r( $header_menus );
 // wp_die();
 
 ?>
-<button class="text-dark color-button-nav btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
-  <span class="navbar-toggler-icon"></span>
+<button class="nav-button-placement btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
+  <i class="fa-solid fa-bars nav-bar-icon"></i>
 </button>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
-  <div class="offcanvas-header">
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
   <div class="offcanvas-body">
+    <button type="button" class="btn-close text-reset button-custom-nav-open" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     <div class="container">
       <?php
       if ( ! empty( $header_menus ) && is_array( $header_menus ) ) {
@@ -51,10 +51,12 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
                     <!-- Parent Menu with Toggler -->
                     <li class="nav-item">
                       <a class="nav-link" href="<?php echo esc_url($menu_item->url); ?>" data-bs-toggle="collapse" data-bs-target="#childMenu<?php echo $menu_item->ID; ?>">
-                        <?php echo esc_html($menu_item->title); ?>
+                      <i class="fa-solid fa-plus icon-menu-plus"></i>
+                      <?php echo esc_html($menu_item->title); ?>
                       </a>
                       <!-- Child Menu -->
                       <div class="collapse" id="childMenu<?php echo $menu_item->ID; ?>">
+                      <!-- AJOUTER JS POUR LE  MOINS QUAND ACTIF -->
                         <?php
                         foreach ($child_menu_items as $child_menu_item) {
                           ?>

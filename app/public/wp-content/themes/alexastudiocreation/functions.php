@@ -6,6 +6,7 @@
  */
 
 
+
 // ABSOLUTE PATH OF THEME :
 
 if ( ! defined( 'ALEXASTUDIOCREATION_DIR_PATH' ) ) {
@@ -27,6 +28,7 @@ function alexastudiocreation_get_theme_instance() {
 }
 
 alexastudiocreation_get_theme_instance();
+
 
 // TEST DU FILEMTIME :
 // echo '<pre>';
