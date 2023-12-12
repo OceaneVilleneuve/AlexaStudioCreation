@@ -31,6 +31,14 @@ function alexastudiocreation_get_theme_instance() {
 
 alexastudiocreation_get_theme_instance();
 
+function add_parallax_script() {
+  wp_enqueue_script('parallax', 'https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js', array('jquery'), null, true);
+
+  wp_enqueue_script('parallax-config', get_stylesheet_directory_uri() . '/inc/js/parallax.js', array('jquery'), null, true);
+}
+
+add_action('wp_enqueue_scripts', 'add_parallax_script');
+
 
 
 // TEST DU FILEMTIME :
