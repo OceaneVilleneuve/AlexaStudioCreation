@@ -8,3 +8,30 @@ Version: 1.0
 Tags: alexa
 Text Domain: AlexaStudioCreation
 */
+
+.color-button-nav {
+  color: black;
+}
+
+.offcanvas-body {
+  background-color: #E0D0F4;
+  font-family: 'Nixie One';font-size: 22px;
+}
+
+.ul-nav {
+  text-decoration: none;
+	list-style: none;
+    .nav-link {
+      margin-top: 35px;
+    }
+    #nav-link-child {
+      font-size: 16px;
+      margin-left: 1em;
+      margin-top: 15px;
+    }
+}
+
+.offcanvas-header {
+  background-color: #E0D0F4;
+  border: none;
+}

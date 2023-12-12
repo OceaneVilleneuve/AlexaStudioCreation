@@ -17,7 +17,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
 // wp_die();
 
 ?>
-<button class="text-dark btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
+<button class="text-dark color-button-nav btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
   <span class="navbar-toggler-icon"></span>
 </button>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
@@ -29,7 +29,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
       <?php
       if ( ! empty( $header_menus ) && is_array( $header_menus ) ) {
         ?>
-          <ul class="">
+          <ul class="ul-nav">
             <?php
               foreach ( $header_menus as $menu_item ) {
                 if ( ! $menu_item->menu_item_parent ) {
@@ -58,9 +58,9 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
                         <?php
                         foreach ($child_menu_items as $child_menu_item) {
                           ?>
-                          <a class="nav-link" href="<?php echo esc_url($child_menu_item->url); ?>">
-                            <?php echo esc_html($child_menu_item->title); ?>
-                          </a>
+                            <a class="nav-link" id="nav-link-child" href="<?php echo esc_url($child_menu_item->url); ?>">
+                              <?php echo esc_html($child_menu_item->title); ?>
+                            </a>
                           <?php
                         }
                         ?>
