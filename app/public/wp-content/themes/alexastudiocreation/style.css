@@ -21,7 +21,7 @@ Text Domain: AlexaStudioCreation
 
 .nav-bar-icon {
   color: #605B5B;
-  font-size: 2em;
+  font-size: 37px;
   height: 1em;
   &:hover {
     color: black;
@@ -30,7 +30,8 @@ Text Domain: AlexaStudioCreation
 
 .offcanvas-body {
   background-color: #E0D0F4;
-  font-family: 'Nixie One';font-size: 22px;
+  font-family: 'Nixie One';
+  font-size: 22px;
 }
 
 .button-custom-nav-open {
@@ -58,4 +59,19 @@ Text Domain: AlexaStudioCreation
 
 .icon-menu-plus {
   font-size: 15px;
+}
+
+.link-to-home {
+  text-decoration: none;
+  color: black;
+  font-family: 'Italianno', sans-serif;
+  font-size: 60px;
+}
+
+.sub-title-header {
+  font-family: 'Nixie One';
+  font-size: 16px;
+  margin-top: -2em;
+  display: flex;
+  justify-content: center;
 }
