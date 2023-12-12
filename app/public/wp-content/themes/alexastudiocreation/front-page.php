@@ -25,17 +25,18 @@ $query = new WP_Query( $args );
                 <?php
                 // Afficher uniquement la miniature
                 if ( has_post_thumbnail() ) {
-                    ?>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="<?php the_permalink(); ?>">
-                            <?php the_post_thumbnail(
-                                'featured-large',
-                                [
-                                    'sizes' => '(max-width: 350px ) 350px, 2px',
-                                    'class' => 'attachment-features-large size-featured-image'
-                                ]
-                            ); ?>
-                        </a>
+                  ?>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="<?php the_permalink(); ?>">
+                      <?php the_post_thumbnail(
+                        'medium', // Taille de l'image (vous pouvez utiliser d'autres tailles prédéfinies telles que 'medium', 'thumbnail', etc.)
+                        [
+                            'class' => 'attachment-large size-large', // Classe CSS pour personnaliser le style de l'image
+                            'alt'   => get_the_title(), // Texte alternatif basé sur le titre de l'article
+                        ]
+                      );
+                      ?>
+                    </a>
                     </div>
                     <?php
                 }

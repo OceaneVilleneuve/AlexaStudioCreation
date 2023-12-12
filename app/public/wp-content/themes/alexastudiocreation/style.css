@@ -75,3 +75,10 @@ Text Domain: AlexaStudioCreation
   display: flex;
   justify-content: center;
 }
+
+.social-media-icons {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin-right: 12px;
+}

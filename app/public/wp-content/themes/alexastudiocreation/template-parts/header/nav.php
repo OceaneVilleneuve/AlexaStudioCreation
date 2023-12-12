@@ -75,6 +75,15 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
               }
             }
           ?>
+          <!--  SOCIAL MEDIA -->
+          <div class="mt-4">
+            <a href="https://www.instagram.com/alexa_studio_creation/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="social-media-icons">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/Alexastudiocreation" target="_blank" class="social-media-icons">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+          </div>
         </ul>
         <?php
       }
