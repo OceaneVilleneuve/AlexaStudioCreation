@@ -173,3 +173,24 @@ button {
 .isotope-item {
   transition-duration: 0.3s;
 }
+
+
+/* CONTACT BUTTON */
+
+.contact-button {
+  position: absolute;
+  background-color: #E0D0F4;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: 'Nixie One';
+  font-size: 20px;
+  border: 1px black solid;
+  text-decoration: none;
+  color: black;
+  bottom: 10%;
+  position: sticky;
+  position: -webkit-sticky;
+  left: 50%;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
