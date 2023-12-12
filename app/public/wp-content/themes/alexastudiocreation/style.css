@@ -85,3 +85,25 @@ Text Domain: AlexaStudioCreation
   display: flex;
   justify-content: center;
 }
+
+.margin-title-header {
+  margin-top: 27px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Ajoutez la taille de police mobile souhaitée ici */
+  .link-to-home {
+      font-size: 48px;
+      margin-left: 9px;
+  }
+  .sub-title-header {
+    font-size: 14px;
+    margin-left: 9px;
+  }
+  .margin-title-header {
+    margin-top: 2em;
+  }
+  .nav-bar-icon {
+    font-size: 30px;
+  }
+}

@@ -32,8 +32,7 @@ if ( function_exists( 'wp_body_open' ) ) {
     <header id="masthead" class="site-header" role="banner">
       <?php get_template_part( 'template-parts/header/nav' ); ?>
     </header>
-    <div class="mt-4">
-
+    <div class="margin-title-header">
       <!-- LINK RENVOI A LA HOME -->
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="link-to-home">Alexa Studio Création</a>
       <p class="sub-title-header">Photographe - Vidéaste </p>
