@@ -7,35 +7,39 @@
 
 get_header();
 ?>
-<div id="a-propos" class="post-page-container">
+
   <main id="main" class="site-main mt-5" role="main">
-      <div class="container">
 
-          <?php
-          if (have_posts()) :
-              while (have_posts()) : the_post();
-          ?>
-                  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                      <header class="entry-header">
-                          <h1 class="single-post-custom-title"><?php the_title(); ?></h1>
-                      </header>
 
-                      <div class="entry-content">
-                          <?php the_content(); ?>
-                      </div>
-                  </article>
+      <?php
+      $count = 0;
+      if (have_posts()) :
+        while (have_posts()) : the_post();
+        ?>
+        <header class="entry-header">
+              <h1 class="single-post-custom-title prestation-custom-title"><?php the_title(); ?></h1>
+            </header>
+            <?php
+          $count++;
+      ?>
+          <article id="post-<?php the_ID(); ?>" <?php post_class('wp-block-media-text'); ?>>
 
-          <?php
-              endwhile;
-          else :
-              get_template_part('template-parts/content-none');
-          endif;
-          ?>
-      </div>
-      <!-- BOUTON CONTACT -->
-      <a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact'))); ?>" class="contact-button">Contact</a>
+            <div class="entry-content">
+              <?php the_content(); ?>
+            </div>
+          </article>
+
+      <?php
+        endwhile;
+      else :
+        get_template_part('template-parts/content-none');
+      endif;
+      ?>
+
+    <!-- BOUTON CONTACT -->
+    <a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact'))); ?>" class="contact-button">Contact</a>
   </main>
-</div>
+
 
 <?php
 get_footer();

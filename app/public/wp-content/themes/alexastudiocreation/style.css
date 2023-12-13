@@ -367,7 +367,7 @@ body {
 
   .about-me-content p {
     font-family: 'Nixie One';
-    font-size: 15px !important;
+    font-size: 16px !important;
     width: 107% !important;
     text-align: center; /* Aligner le texte au centre */
     padding-right: 0px;
@@ -376,3 +376,44 @@ body {
 }
 
 /* PRESTATIONS */
+.wp-block-media-text .even-card {
+  background-color: none;
+  img {
+    margin-left: 9.5em !important;
+  }
+
+}
+
+.odd-card {
+  background-color: #E0D0F4;
+
+}
+
+.wp-block-media-text {
+  align-items: center;
+  grid-template-columns: none !important;
+  padding: 0.5em 0em;
+  & img {
+    width: 24em !important;
+    height: 17em !important;
+    object-fit: cover !important;
+    margin: 2em;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  & p {
+    width: 400px;
+    font-family: 'Nixie One';
+    font-size: 16px !important;
+    z-index: 2;
+  }
+  & h2 {
+    font-family: 'Portmanteau';
+    font-size: 20px;
+    padding: 20px 0px !important;
+  }
+}
+
+.prestation-custom-title {
+  margin-bottom: 2em;
+}

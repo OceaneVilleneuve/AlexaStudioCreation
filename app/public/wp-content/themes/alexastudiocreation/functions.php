@@ -45,7 +45,13 @@ function add_toogle_script_for_menu() {
     wp_enqueue_script('toggle-config', get_stylesheet_directory_uri() . '/inc/js/toggle.js', array('jquery'), null, true);
 }
 
+
+function add_dynamic_cards_for_prestations() {
+  wp_enqueue_script('dynamic-card-config', get_stylesheet_directory_uri() . '/inc/js/prestations.js', array('jquery'), null, true);
+}
+
 add_action('wp_enqueue_scripts', 'add_parallax_script');
 add_action('wp_enqueue_scripts', 'add_isotope_script');
 add_action('wp_enqueue_scripts', 'add_thumbnails_script_for_mobile');
 add_action('wp_enqueue_scripts', 'add_toogle_script_for_menu');
+add_action('wp_enqueue_scripts', 'add_dynamic_cards_for_prestations');
