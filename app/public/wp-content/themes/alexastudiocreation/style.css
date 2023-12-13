@@ -350,3 +350,29 @@ body {
     padding-right: 5em;
   }
 }
+@media only screen and (max-width: 767px) {
+  .about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer les éléments verticalement */
+    justify-content: center; /* Centrer les éléments horizontalement */
+    margin: 3em;
+  }
+
+  .about-me-content img {
+    border-radius: 50%;
+    height: 11em !important;
+    width: 11em !important;
+  }
+
+  .about-me-content p {
+    font-family: 'Nixie One';
+    font-size: 15px !important;
+    width: 107% !important;
+    text-align: center; /* Aligner le texte au centre */
+    padding-right: 0px;
+    padding-top: 2em;
+  }
+}
+
+/* PRESTATIONS */
