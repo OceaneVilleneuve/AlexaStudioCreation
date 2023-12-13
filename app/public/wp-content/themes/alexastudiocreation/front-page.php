@@ -49,10 +49,10 @@ $query = new WP_Query( $args );
             endif;
             ?>
         </div>
-    </div>
 
     <!-- BOUTON CONTACT -->
     <a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact'))); ?>" class="contact-button">Contact</a>
+    </div>
 
 </main>
 

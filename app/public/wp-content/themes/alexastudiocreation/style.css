@@ -23,6 +23,15 @@ body {
   background-position: center;
 }
 
+.page-template-contact .parallax-container {
+
+  background-image: url('/wp-content/themes/alexastudiocreation/contact-background.png');
+  background-size: cover;
+  background-attachment: fixed; /* assure un effet de parallaxe */
+  background-position: center;
+}
+
+
 /* Remplacez l'image sur les écrans plus petits (mobiles) */
 @media only screen and (max-width: 767px) {
   body {
@@ -108,6 +117,13 @@ body {
 
 }
 
+@media only screen and (max-width: 767px) {
+  .margin-title-home {
+    margin-left: 30px;
+    padding-top: 0em;
+  }
+}
+
 .link-to-home {
   text-decoration: none;
   color: black;
@@ -176,6 +192,19 @@ body {
     width: 80%; /* Ajustez la largeur des thumbnails selon vos besoins */
     height: auto;
     margin: 0 auto; /* Ajustez cette ligne pour centrer horizontalement */
+  }
+
+  .available-tag {
+    position: absolute;
+    z-index: 2;
+    right: -18px;
+    top: 15%;
+    transform: translateX(-50%);
+    background-color: #E0D0F4;
+    padding: 28px 12px;
+    border-radius: 100%;
+    font-family: 'Galada', cursive;
+    font-size: 14px;
   }
 }
 
@@ -268,16 +297,20 @@ body {
 
 @media only screen and (max-width: 767px) {
   .contact-button {
-    display: block;
-    margin: 0px auto; /* Ajoutez une marge pour plus de contrôle */
-    text-align: center;
-    width: 35%; /* Ajustez la largeur selon vos besoins */
-    left: 0;
-    right: 0;
-    position: absolute;
+    position: fixed;
+    background-color: #E0D0F4;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: 'Nixie One';
+    font-size: 20px;
+    border: 1px black solid;
+    text-decoration: none;
+    color: black;
     bottom: 10%;
-    position: sticky;
-    position: -webkit-sticky;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
 }
 
@@ -294,4 +327,26 @@ body {
 .post-page-container {
   height: 100vh;
   width: 100%;
+}
+
+
+/* À PROPOS DE MOI PAGE */
+
+.about-me-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em;
+
+  img {
+    border-radius: 50%;
+    height: 14em !important;
+    width: 14em !important;
+  }
+
+  p {
+    font-family: 'Nixie One';
+    font-size: 15px !important;
+    width: 66% !important;
+    padding-right: 5em;
+  }
 }

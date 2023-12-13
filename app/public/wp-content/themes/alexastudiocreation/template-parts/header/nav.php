@@ -26,6 +26,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
   <div class="offcanvas-body">
     <button type="button" class="btn-close text-reset button-custom-nav-open" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     <div class="container">
+
       <?php
       if ( ! empty( $header_menus ) && is_array( $header_menus ) ) {
         ?>
