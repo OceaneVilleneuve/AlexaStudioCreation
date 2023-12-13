@@ -347,6 +347,7 @@ body {
     font-family: 'Nixie One';
     font-size: 15px !important;
     width: 66% !important;
+    font-weight: bolder;
     padding-right: 5em;
   }
 }
@@ -379,22 +380,44 @@ body {
 .wp-block-media-text .even-card {
   background-color: none;
   img {
-    margin-left: 9.5em !important;
+    margin-left: 9em !important;
+    margin-right: 7em !important;
+  }
+  p {
+    margin-left: 4em !important;
+    width: 100% !important;
+  }
+  h2 {
+    margin-left: 3em !important;
+    width: 100% !important;
   }
 
 }
 
-.odd-card {
+.wp-block-media-text .odd-card {
   background-color: #E0D0F4;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  img {
+    margin-left: 7em !important;
+    margin-right: 0px !important;
+  }
+  p {
+    margin-left: 5em !important;
+    width: 75% !important;
+  }
+  h2 {
+    margin-left: 4em !important;
+    width: 75% !important;
+  }
 
 }
 
 .wp-block-media-text {
   align-items: center;
   grid-template-columns: none !important;
-  padding: 0.5em 0em;
+  padding: 2em 0em;
   & img {
-    width: 24em !important;
+    width: 30em !important;
     height: 17em !important;
     object-fit: cover !important;
     margin: 2em;
@@ -405,6 +428,7 @@ body {
     width: 400px;
     font-family: 'Nixie One';
     font-size: 16px !important;
+    font-weight: bolder;
     z-index: 2;
   }
   & h2 {
@@ -416,4 +440,12 @@ body {
 
 .prestation-custom-title {
   margin-bottom: 2em;
+}
+.wp-block-quote {
+  text-align: center;
+  margin-bottom: 4em;
+  p {
+    width: 100%;
+    font-weight: bolder;
+  }
 }
