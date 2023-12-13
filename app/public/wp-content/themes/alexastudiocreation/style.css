@@ -144,8 +144,9 @@ body {
 .available-tag {
   position: absolute;
   z-index: 2;
-  right: 3%;
-  top: 20%;
+  right: 1%;
+  top: 16%;
+  transform: translateX(-50%);
   background-color: #E0D0F4;
   padding: 41px 13px;
   border-radius: 100%;
