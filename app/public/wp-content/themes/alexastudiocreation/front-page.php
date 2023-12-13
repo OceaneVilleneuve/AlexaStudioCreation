@@ -15,6 +15,7 @@ $query = new WP_Query( $args );
 ?>
 
 <main id="main" class="site-main">
+  <span class="available-tag">Disponible</span>
     <div class="front-page-content">
         <div class="grid">
             <?php

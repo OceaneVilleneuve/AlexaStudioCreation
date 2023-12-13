@@ -137,9 +137,21 @@ body {
   }
 }
 
-/* FRONT PAGE */
 
 /* FRONT PAGE */
+
+
+.available-tag {
+  position: absolute;
+  z-index: 2;
+  right: 3%;
+  top: 20%;
+  background-color: #E0D0F4;
+  padding: 41px 13px;
+  border-radius: 100%;
+  font-family: 'Galada', cursive;
+  font-size: 24px;
+}
 
 @media only screen and (max-width: 767px) {
   .col-lg-4 {
@@ -165,7 +177,7 @@ body {
 }
 
 .custom-thumbnail {
-  width: 100%;
+  width: 95%;
   height: 60%;
   object-fit: cover;
   padding: 20px;
@@ -206,7 +218,7 @@ body {
 }
 
 .front-page-content {
-  margin-top: 3em;
+  margin: 3em 1.5em;
 }
 
 .custom-button-for-home {
