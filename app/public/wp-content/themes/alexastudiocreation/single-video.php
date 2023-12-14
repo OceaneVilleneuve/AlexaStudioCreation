@@ -28,6 +28,7 @@ get_header();
     else :
         get_template_part('template-parts/content-none');
     endif;
+
     ?>
 
 <!-- BOUTON CONTACT -->

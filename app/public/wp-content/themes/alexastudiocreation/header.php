@@ -10,7 +10,8 @@
 <html lang="<?php language_attributes(); ?>">
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class('parallax-container'); ?>>
 
 <div class="parallax-container">
 

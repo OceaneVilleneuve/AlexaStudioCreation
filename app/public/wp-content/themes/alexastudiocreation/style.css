@@ -16,16 +16,13 @@ button {
 
 /* BACKGROUND */
 
-body {
-  background-image: url('/wp-content/themes/alexastudiocreation/background.png');
-  background-size: cover;
-  background-attachment: fixed; /* assure un effet de parallaxe */
-  background-position: center;
+html, body {
+  min-height: 100vh;
 }
 
-.page-template-contact .parallax-container {
 
-  background-image: url('/wp-content/themes/alexastudiocreation/contact-background.png');
+
+.parallax-container {
   background-size: cover;
   background-attachment: fixed; /* assure un effet de parallaxe */
   background-position: center;
@@ -34,13 +31,12 @@ body {
 
 /* Remplacez l'image sur les écrans plus petits (mobiles) */
 @media only screen and (max-width: 767px) {
-  body {
-    background-image: url('/wp-content/themes/alexastudiocreation/background-small.png');
+  .parallax-container {
     background-size: cover;
     background-attachment: fixed; /* assure un effet de parallaxe */
     background-position: center;
-
   }
+
 }
 
 /* MENU */
@@ -175,6 +171,7 @@ body {
   border-radius: 100%;
   font-family: 'Galada', cursive;
   font-size: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -205,6 +202,7 @@ body {
     border-radius: 100%;
     font-family: 'Galada', cursive;
     font-size: 14px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 
 }
@@ -337,7 +335,8 @@ body {
 .about-me-content {
   display: flex;
   justify-content: space-between;
-  margin: 3em;
+  padding: 3em;
+
 
   img {
     border-radius: 50%;
@@ -359,7 +358,7 @@ body {
     flex-direction: column;
     align-items: center; /* Centrer les éléments verticalement */
     justify-content: center; /* Centrer les éléments horizontalement */
-    margin: 3em;
+    padding: 1em;
   }
 
   .about-me-content img {
@@ -373,8 +372,7 @@ body {
     font-size: 16px !important;
     width: 107% !important;
     text-align: center; /* Aligner le texte au centre */
-    padding-right: 0px;
-    padding-top: 2em;
+    padding: 2em 3em;
   }
 }
 
@@ -483,6 +481,7 @@ body {
   border-radius: 100%;
   font-family: 'Galada', cursive;
   font-size: 24px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -505,5 +504,6 @@ body {
     border-radius: 100%;
     font-family: 'Galada', cursive;
     font-size: 14px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 }

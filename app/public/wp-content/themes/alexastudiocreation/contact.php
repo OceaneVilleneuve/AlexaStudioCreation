@@ -9,8 +9,8 @@ get_header();
 ?>
 
 <div id="a-propos" class="post-page-container <?php body_class('page-contact'); ?>">
-  <main id="main" class="site-main mt-5" role="main">
-      <div class="container contact-section">
+  <main id="main" class="site-main contact-section mt-5" role="main">
+      <div class="container ">
           <?php
           if (have_posts()) :
               while (have_posts()) : the_post();

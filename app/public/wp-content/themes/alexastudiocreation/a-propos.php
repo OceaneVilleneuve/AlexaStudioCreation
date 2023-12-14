@@ -7,8 +7,8 @@
 
 get_header();
 ?>
-<div id="a-propos" class="post-page-container ">
   <main id="main" class="site-main mt-5 " role="main">
+    <div id="a-propos" class="post-page-container ">
           <?php
           if (have_posts()) :
               while (have_posts()) : the_post();
@@ -32,8 +32,8 @@ get_header();
 
       <!-- BOUTON CONTACT -->
       <a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact'))); ?>" class="contact-button">Contact</a>
+    </div>
   </main>
-</div>
 
 <?php
 get_footer();
