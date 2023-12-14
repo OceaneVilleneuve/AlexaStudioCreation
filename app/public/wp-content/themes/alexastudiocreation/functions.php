@@ -35,6 +35,8 @@ function add_isotope_script() {
     wp_enqueue_script('isotope', 'https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js', array('jquery'), null, true);
     wp_enqueue_script('cloudflare', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js', array('jquery'), null, true);
     wp_enqueue_script('isotope-config', get_stylesheet_directory_uri() . '/inc/js/isotope.js', array('jquery'), null, true);
+
+    wp_enqueue_script('isotope-config-bis', get_stylesheet_directory_uri() . '/inc/js/isotopebis.js', array('jquery'), null, true);
 }
 
 function add_thumbnails_script_for_mobile() {
@@ -49,6 +51,8 @@ function add_toogle_script_for_menu() {
 function add_dynamic_cards_for_prestations() {
   wp_enqueue_script('dynamic-card-config', get_stylesheet_directory_uri() . '/inc/js/prestations.js', array('jquery'), null, true);
 }
+
+
 
 add_action('wp_enqueue_scripts', 'add_parallax_script');
 add_action('wp_enqueue_scripts', 'add_isotope_script');
