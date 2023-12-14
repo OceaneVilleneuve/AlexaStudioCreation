@@ -59,3 +59,16 @@ add_action('wp_enqueue_scripts', 'add_isotope_script');
 add_action('wp_enqueue_scripts', 'add_thumbnails_script_for_mobile');
 add_action('wp_enqueue_scripts', 'add_toogle_script_for_menu');
 add_action('wp_enqueue_scripts', 'add_dynamic_cards_for_prestations');
+
+
+// Theme personnalisé pour les posts
+function custom_template_for_video_posts($template) {
+  global $post;
+
+  if ( is_single() && has_category('Vidéos', $post) ) {
+      $template = get_stylesheet_directory() . '/single-video.php';
+  }
+
+  return $template;
+}
+add_filter('single_template', 'custom_template_for_video_posts');
