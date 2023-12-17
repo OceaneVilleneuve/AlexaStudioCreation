@@ -13,11 +13,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/app/public/wp-content/themes/alexastudiocreation/fonts/Nixie_One/NixieOne-Regular.ttf" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="<?php echo get_stylesheet_directory_uri(); ?>/app/public/wp-content/themes/alexastudiocreation/fonts/portmanteau/Portmanteau Regular.ttf" as="font" type="font/woff2" crossorigin> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
 <body <?php body_class('parallax-container'); ?>>

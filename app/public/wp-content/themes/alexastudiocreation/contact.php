@@ -8,19 +8,19 @@
 get_header();
 ?>
 
-<div id="a-propos" class="post-page-container <?php body_class('page-contact'); ?>">
+<div id="contact" class="post-page-container <?php body_class('page-contact'); ?>">
   <main id="main" class="site-main contact-section mt-5" role="main">
-      <div class="container ">
+      <div class="container-contact">
           <?php
           if (have_posts()) :
               while (have_posts()) : the_post();
           ?>
                   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                      <header class="entry-header">
+                      <!-- <header class="entry-header">
                           <h1 class="single-post-custom-title"><?php the_title(); ?></h1>
-                      </header>
+                      </header> -->
 
-                      <div class="entry-content">
+                      <div class="entry-content-contact">
                           <?php the_content(); ?>
                       </div>
                   </article>

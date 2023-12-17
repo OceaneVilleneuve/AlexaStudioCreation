@@ -1,0 +1,2490 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Appointment Hour Booking\n"
+"POT-Creation-Date: 2019-01-18 14:38+0100\n"
+"PO-Revision-Date: 2023-06-12 14:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "The add-on adds support for limiting the number of appointments per user"
+msgstr ""
+"De add-on voegt ondersteuning toe voor het beperken van het aantal afspraken per "
+"gebruiker"
+
+#: addons/applimit.addon.php:298
+msgid "Number of allowed appointments exceeded."
+msgstr "Aantal toegestane afspraken overschreden."
+
+#: addons/authnet.addon.php:109
+msgid "Enable Authorize.net SIM?"
+msgstr "Authorize.net SIM inschakelen?"
+
+#: addons/authnet.addon.php:111 addons/mollie.addon.php:62 addons/paypal.addon.php:74
+#: addons/paypalpro.addon.php:80 addons/redsys.addon.php:88 addons/sagepay.addon.php:99
+#: addons/sagepayments.addon.php:83 addons/skrill.addon.php:69 addons/stripe.addon.php:80
+#: addons/targetpay.ideal.addon.php:65 cp-admin-int.inc.php:542 cp-admin-int.inc.php:573
+#: cp-admin-int.inc.php:621 cp-admin-int.inc.php:691 cp-settings.inc.php:136
+msgid "No"
+msgstr "Nee"
+
+#: addons/authnet.addon.php:112 addons/frontend-lists.addon.php:273
+#: addons/mollie.addon.php:63 addons/paypal.addon.php:75 addons/paypalpro.addon.php:81
+#: addons/redsys.addon.php:89 addons/sagepay.addon.php:100
+#: addons/sagepayments.addon.php:84 addons/skrill.addon.php:70 addons/stripe.addon.php:81
+#: addons/targetpay.ideal.addon.php:66 cp-admin-int.inc.php:541 cp-admin-int.inc.php:572
+#: cp-admin-int.inc.php:620 cp-admin-int.inc.php:692 cp-main-class.inc.php:301
+#: cp-settings.inc.php:137
+msgid "Yes"
+msgstr "Ja"
+
+#: addons/authnet.addon.php:113 addons/mollie.addon.php:64 addons/paypal.addon.php:76
+#: addons/paypalpro.addon.php:82 addons/redsys.addon.php:90 addons/sagepay.addon.php:101
+#: addons/sagepayments.addon.php:85 addons/skrill.addon.php:71 addons/stripe.addon.php:82
+#: addons/targetpay.ideal.addon.php:67
+msgid "Optional: This payment method + Pay Later (submit without payment)"
+msgstr "Optioneel: Deze betaalmethode + Later betalen (verzenden zonder betaling)"
+
+#: addons/authnet.addon.php:114 addons/mollie.addon.php:65 addons/paypal.addon.php:77
+#: addons/paypalpro.addon.php:83 addons/redsys.addon.php:91 addons/sagepay.addon.php:102
+#: addons/sagepayments.addon.php:86 addons/skrill.addon.php:72 addons/stripe.addon.php:83
+#: addons/targetpay.ideal.addon.php:68
+msgid "Optional: This payment method + Other payment methods (enabled)"
+msgstr "Optioneel: Deze betaalmethode + Andere betaalmethoden (ingeschakeld)"
+
+#: addons/authnet.addon.php:115 addons/mollie.addon.php:66 addons/paypal.addon.php:78
+#: addons/paypalpro.addon.php:84 addons/redsys.addon.php:92 addons/sagepay.addon.php:103
+#: addons/sagepayments.addon.php:87 addons/skrill.addon.php:73 addons/stripe.addon.php:84
+#: addons/targetpay.ideal.addon.php:69
+msgid "Optional: This payment method + Other payment methods  + Pay Later "
+msgstr "Optioneel: Deze betaalmethode + Andere betaalmethoden + Later betalen "
+
+#: addons/authnet.addon.php:120
+msgid "Mode:"
+msgstr "Wijze:"
+
+#: addons/authnet.addon.php:122
+msgid "Production"
+msgstr "Productie"
+
+#: addons/authnet.addon.php:123
+msgid "Test"
+msgstr "Test"
+
+#: addons/authnet.addon.php:128
+msgid "API Username"
+msgstr "API gebruikersnaam"
+
+#: addons/authnet.addon.php:132
+msgid "API Key"
+msgstr "API sleutel"
+
+#: addons/authnet.addon.php:137
+msgid "Receipt URL:"
+msgstr "URL van ontvangst:"
+
+#: addons/authnet.addon.php:143 addons/paypal.addon.php:88 addons/skrill.addon.php:83
+msgid "Cancel URL:"
+msgstr "URL annuleren:"
+
+#: addons/authnet.addon.php:153 addons/paypalpro.addon.php:542
+#: addons/sagepay.addon.php:134
+msgid "First Name"
+msgstr "Voornaam"
+
+#: addons/authnet.addon.php:157 addons/paypalpro.addon.php:551
+#: addons/sagepay.addon.php:138
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: addons/authnet.addon.php:161
+msgid "Company"
+msgstr "Bedrijfsnaam"
+
+#: addons/authnet.addon.php:165 addons/paypalpro.addon.php:622
+#: addons/sagepay.addon.php:142
+msgid "Address"
+msgstr "Adres"
+
+#: addons/authnet.addon.php:169 addons/paypalpro.addon.php:627
+#: addons/sagepay.addon.php:146
+msgid "City"
+msgstr "Stad"
+
+#: addons/authnet.addon.php:173
+msgid "State/Province"
+msgstr "Provincie"
+
+#: addons/authnet.addon.php:177 addons/paypalpro.addon.php:657
+#: addons/sagepay.addon.php:154
+msgid "Country"
+msgstr "Land"
+
+#: addons/authnet.addon.php:181 addons/sagepay.addon.php:158
+msgid "Zip/Postal Code"
+msgstr "Postcode"
+
+#: addons/authnet.addon.php:185 cp-admin-int-message-list.inc.php:150
+#: cp-admin-int-schedule.inc.php:80
+msgid "Email"
+msgstr "E-mail"
+
+#: addons/authnet.addon.php:189
+msgid "Phone"
+msgstr "Telefoon"
+
+#: addons/authnet.addon.php:193
+msgid "Fax"
+msgstr "Fax"
+
+#: addons/authnet.addon.php:217
+msgid "The add-on adds support for Authorize.net Server Integration Method payments"
+msgstr "De add-on voegt ondersteuning toe voor betalingen met Authorize.net Server"
+
+#: addons/authnet.addon.php:339
+msgid "Pay with Authorize.net"
+msgstr "Betalen met Authorize.Net"
+
+#: addons/cancellation.addon.php:159
+msgid "The add-on adds support for cancellation links for bookings"
+msgstr "De add-on voegt ondersteuning toe voor annulerings-links voor boekingen"
+
+#: addons/cancellation.addon.php:264
+msgid "Cancellation"
+msgstr "Annulering"
+
+#: addons/cancellation.addon.php:266
+msgid "Please enter the following security code to confirm the cancellation:"
+msgstr "Voer de volgende beveiligingscode in om de annulering te bevestigen:"
+
+#: addons/cancellation.addon.php:269 cp-public-int.inc.php:29
+msgid "Please enter the security code"
+msgstr "Vul beveiligingscode in"
+
+#: addons/cancellation.addon.php:271
+msgid "Cancel Booking"
+msgstr "Boeking annuleren"
+
+# RevTran=Enter the captcha verification code.
+#: addons/cancellation.addon.php:273
+msgid "Incorrect verification code"
+msgstr "Onjuiste verificatiecode"
+
+#: addons/clickatell.addon.php:63
+msgid "Clickatell enabled"
+msgstr "Clickatell ingeschakeld"
+
+#: addons/clickatell.addon.php:67
+msgid "Account API Key"
+msgstr "Account API-sleutel"
+
+#: addons/clickatell.addon.php:71
+msgid "Authentication Token"
+msgstr "Verificatietoken"
+
+#: addons/clickatell.addon.php:75
+msgid "From Phone Number"
+msgstr "Vanaf telefoonnummer"
+
+#: addons/clickatell.addon.php:80
+msgid "To Phone Number"
+msgstr "Naar telefoonnummer"
+
+#: addons/clickatell.addon.php:83
+msgid "For sending multiple messages, separate the phone numbers by comma symbols."
+msgstr ""
+"Voor het verzenden van meerdere berichten scheidt u de telefoonnummers met komma’s."
+
+#: addons/clickatell.addon.php:87 addons/clickatell.addon.php:103
+#: cp-admin-int-message-list.inc.php:151 cp-admin-int.inc.php:558 cp-admin-int.inc.php:596
+msgid "Message"
+msgstr "Bericht"
+
+#: addons/clickatell.addon.php:90 addons/clickatell.addon.php:106
+msgid ""
+"It is possible to use the same <a href=\"https://form2email.dwbooster.com/faq#q81\" "
+"target=\"_blank\">special tags</a> than in notifications emails."
+msgstr ""
+"Het is mogelijk om dezelfde <a href=\"https://form2email.dwbooster.com/faq#q81\" "
+"target=\"_blank\">speciale tags</a> te gebruiken als in e-mail meldingen."
+
+#: addons/clickatell.addon.php:94
+msgid "Copy to the users"
+msgstr "Kopiëren naar de gebruikers"
+
+#: addons/clickatell.addon.php:96
+msgid "To Phone fields"
+msgstr "Naar telefoon velden"
+
+#: addons/clickatell.addon.php:99
+msgid "For sending multiple messages, separate the phone fields by comma symbols."
+msgstr ""
+"Voor het verzenden van meerdere berichten scheidt u de telefoonvelden met komma’s."
+
+#: addons/clickatell.addon.php:128
+msgid ""
+"The add-on allows to send notification messages (SMS) via Clickatell after submitting "
+"the form"
+msgstr ""
+"De add-on maakt het mogelijk om meldingsberichten (SMS) via Clickatell te versturen na "
+"het indienen van het formulier"
+
+#: addons/coupons.addon.php:107
+msgid "The add-on adds support for coupons / discounts codes"
+msgstr "De add-on voegt ondersteuning toe voor kortingsbonnen / kortingscodes"
+
+#: addons/coupons.addon.php:184
+msgid "Coupon code"
+msgstr "Kortingscode"
+
+#: addons/frontend-lists.addon.php:80
+msgid ""
+"The add-on allows to displays list (schedule) of bookings grouped by date in the "
+"frontend"
+msgstr ""
+"De add-on maakt het mogelijk om een lijst (schema) van boekingen gegroepeerd op datum "
+"in de frontend weer te geven"
+
+#: addons/frontend-lists.addon.php:158 cp-admin-int-schedule.inc.php:76
+msgid "Date"
+msgstr "Datum"
+
+#: addons/frontend-lists.addon.php:207
+msgid "No bookings found"
+msgstr "Geen reserveringen gevonden"
+
+#: addons/frontend-lists.addon.php:212
+msgid "Are you sure you want to delete this item?"
+msgstr "Weet je zeker dat je dit onderdeel wilt verwijderen?"
+
+#: addons/frontend-lists.addon.php:264 cp-main-class.inc.php:200 cp-main-class.inc.php:292
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: addons/frontend-lists.addon.php:281
+msgid "delete"
+msgstr "verwijderen"
+
+#: addons/icalexport.addon.php:82
+msgid "iCal timezone difference vs server time"
+msgstr "verschil in tijdzone van iCal en de servertijd"
+
+#: addons/icalexport.addon.php:93
+msgid "Observe daylight saving time?"
+msgstr "Zich aan de zomertijd houden?"
+
+#: addons/icalexport.addon.php:101
+msgid "Daylight saving time zone"
+msgstr "Zomertijdzone"
+
+#: addons/icalexport.addon.php:109
+msgid "Attach iCal file to notification emails?"
+msgstr "Een iCal-bestand bijvoegen bij e-mailberichten?"
+
+#: addons/icalexport.addon.php:119
+msgid "iCal entry summary"
+msgstr "iCal invoeroverzicht"
+
+#: addons/icalexport.addon.php:126
+msgid "iCal entry description"
+msgstr "iCal beschrijving"
+
+#: addons/icalexport.addon.php:151
+msgid "The add-on adds support for exporting iCal files."
+msgstr "De add-on voegt ondersteuning toe voor het exporteren van iCal-bestanden."
+
+#: addons/icalimport.addon.php:97
+msgid "The add-on adds support for importing iCal files from external websites/services"
+msgstr ""
+"De add-on voegt ondersteuning toe voor het importeren van iCal-bestanden van externe "
+"websites/services"
+
+#: addons/icalimport.addon.php:213 cp-main-class.inc.php:1071
+msgid "Appointments"
+msgstr "Afspraken"
+
+#: addons/mailchimp.addon.php:83
+msgid "API KEY"
+msgstr "API-SLEUTEL"
+
+#: addons/mailchimp.addon.php:85
+msgid "Get Lists"
+msgstr "Lijsten ophalen"
+
+#: addons/mailchimp.addon.php:88
+msgid "List ID"
+msgstr "Lijst ID"
+
+#: addons/mailchimp.addon.php:92
+msgid "Get Fields and Groups"
+msgstr "Velden en groepen ophalen"
+
+#: addons/mailchimp.addon.php:99
+msgid "Form Fields"
+msgstr "Formuliervelden"
+
+#: addons/mailchimp.addon.php:116 addons/mailchimp.addon.php:170
+msgid "There are not fields selected"
+msgstr "Er zijn geen velden geselecteerd"
+
+#: addons/mailchimp.addon.php:122
+msgid "Groups"
+msgstr "Groepen"
+
+#: addons/mailchimp.addon.php:147 addons/mailchimp.addon.php:171
+msgid "There are not groups selected"
+msgstr "Er zijn geen groepen geselecteerd"
+
+#: addons/mailchimp.addon.php:154
+msgid "Status If New"
+msgstr "Status indien nieuw"
+
+#: addons/mailchimp.addon.php:157
+msgid "Pending"
+msgstr "In afwachting"
+
+#: addons/mailchimp.addon.php:158
+msgid "Subscribed"
+msgstr "Geabonneerd"
+
+#: addons/mailchimp.addon.php:166
+msgid "Invalid API KEY"
+msgstr "Ongeldige API KEY"
+
+#: addons/mailchimp.addon.php:167
+msgid "Select a List"
+msgstr "Selecteer een Lijst"
+
+#: addons/mailchimp.addon.php:168
+msgid "Select a List ID"
+msgstr "Selecteer een lijst-ID"
+
+#: addons/mailchimp.addon.php:169
+msgid "Create at least a list in your MailChimp account"
+msgstr "Maak ten minste een lijst in uw MailChimp-account"
+
+#: addons/mailchimp.addon.php:190
+msgid "The add-on creates MailChimp List members with the submitted information"
+msgstr "De add-on maakt MailChimp Lijst leden met de ingediende informatie"
+
+#: addons/mailchimp.addon.php:363
+msgid "Please select..."
+msgstr "Selecteer alstublieft..."
+
+#: addons/mollie.addon.php:60
+msgid "Enable iDeal-Mollie? (if enabled PayPal Standard is disabled)"
+msgstr ""
+"Wilt u iDeal-Mollie inschakelen? (indien ingeschakeld, is PayPal Standaard "
+"uitgeschakeld)"
+
+#: addons/mollie.addon.php:71
+msgid "Mollie API Key"
+msgstr "Mollie API-sleutel"
+
+#: addons/mollie.addon.php:75 addons/targetpay.ideal.addon.php:78
+msgid "If payment fails return to this page"
+msgstr "Als de betaling mislukt, keert u terug naar deze pagina"
+
+#: addons/mollie.addon.php:99
+msgid "The add-on adds support for iDeal via Mollie payments"
+msgstr "De add-on voegt ondersteuning toe voor iDeal via Mollie betalingen"
+
+#: addons/mollie.addon.php:195
+msgid "Pay with iDeal/Mollie"
+msgstr "Betalen met iDeal/Mollie"
+
+#: addons/paypal.addon.php:72
+msgid "Enable PayPal Standard Payments?"
+msgstr "Standaardbetalingen inschakelen PayPal?"
+
+#: addons/paypal.addon.php:83
+msgid "PayPal Standard Email"
+msgstr "PayPal standaard e-mail"
+
+#: addons/paypal.addon.php:94 addons/skrill.addon.php:89
+msgid "Currency:"
+msgstr "Valuta:"
+
+#: addons/paypal.addon.php:129
+msgid "Paypal language"
+msgstr "PayPal taal"
+
+#: addons/paypal.addon.php:133 addons/paypalpro.addon.php:117
+msgid "Paypal Mode"
+msgstr "PayPal Modus"
+
+#: addons/paypal.addon.php:161
+msgid "The add-on adds support for PayPal Standard payments"
+msgstr "De add-on voegt ondersteuning toe voor PayPal Standard-betalingen"
+
+#: addons/paypal.addon.php:224
+msgid "Pay with PayPal"
+msgstr "Betaal met PayPal"
+
+#: addons/paypalpro.addon.php:78
+msgid "Enable PayPal Pro? (if enabled PayPal Standard is disabled)"
+msgstr "PayPal Pro inschakelen? (indien ingeschakeld is PayPal Standaard uitgeschakeld)"
+
+#: addons/paypalpro.addon.php:89
+msgid "PayPal Pro - API UserName"
+msgstr "PayPal Pro - API-gebruikersnaam"
+
+#: addons/paypalpro.addon.php:93
+msgid "PayPal Pro - API Password"
+msgstr "PayPal Pro - API-wachtwoord"
+
+#: addons/paypalpro.addon.php:97
+msgid "PayPal Pro - API Signature"
+msgstr "PayPal Pro - API-handtekening"
+
+#: addons/paypalpro.addon.php:101
+msgid "PayPal Pro - Currency"
+msgstr "PayPal Pro - Valuta"
+
+#: addons/paypalpro.addon.php:105
+msgid "Billing Period"
+msgstr "Factuurperiode"
+
+#: addons/paypalpro.addon.php:107
+msgid "One-time payment"
+msgstr "Eenmalige betaling"
+
+#: addons/paypalpro.addon.php:108
+msgid "Daily"
+msgstr "Dagelijks"
+
+#: addons/paypalpro.addon.php:109
+msgid "Weekly"
+msgstr "Wekelijks"
+
+#: addons/paypalpro.addon.php:110
+msgid "SemiMonth"
+msgstr "Per 14 dagen"
+
+#: addons/paypalpro.addon.php:111
+msgid "Monthly"
+msgstr "Maandelijks"
+
+#: addons/paypalpro.addon.php:112
+msgid "Yearly"
+msgstr "Jaarlijks"
+
+#: addons/paypalpro.addon.php:119 addons/redsys.addon.php:112 addons/sagepay.addon.php:120
+msgid "Production - real payments processed"
+msgstr "Productie - werkelijk verwerkte betalingen"
+
+#: addons/paypalpro.addon.php:120
+msgid "SandBox - PayPal testing sandbox area"
+msgstr "SandBox - PayPal sandbox-gebied testen"
+
+#: addons/paypalpro.addon.php:125
+msgid "Default Country"
+msgstr "Standaard land"
+
+#: addons/paypalpro.addon.php:398
+msgid ""
+"The add-on adds support for PayPal Payment Pro payments to accept credit cards directly "
+"into the website"
+msgstr ""
+"De add-on voegt ondersteuning toe voor PayPal Payment Pro betalingen om creditcards "
+"direct op de website te accepteren"
+
+#: addons/paypalpro.addon.php:564
+msgid "Credit Card Number"
+msgstr "Creditkaart nummer"
+
+#: addons/paypalpro.addon.php:573
+msgid "CVV Number"
+msgstr "CVV-nummer"
+
+#: addons/paypalpro.addon.php:586
+msgid "Card Type"
+msgstr "Type kaart"
+
+#: addons/paypalpro.addon.php:595
+msgid "Expiration"
+msgstr "Vervaldatum"
+
+#: addons/paypalpro.addon.php:636
+msgid "County"
+msgstr "Provincie"
+
+#: addons/paypalpro.addon.php:645
+msgid "Post Code"
+msgstr "Postcode"
+
+#: addons/paypalpro.addon.php:944 addons/stripe.addon.php:273
+msgid "Pay with Credit Cards"
+msgstr "Betalen met creditcards"
+
+#: addons/recaptcha.addon.php:31
+msgid "Site Key"
+msgstr "Website sleutel"
+
+#: addons/recaptcha.addon.php:37 addons/stripe.addon.php:93
+msgid "Secret Key"
+msgstr "Geheime sleutel"
+
+#: addons/recaptcha.addon.php:65
+msgid "The add-on allows to protect the forms with reCAPTCHA service of Google"
+msgstr ""
+"De add-on maakt het mogelijk om de formulieren te beschermen met reCAPTCHA-service van "
+"Google"
+
+#: addons/recaptcha.addon.php:207
+msgid "Captcha verification is missing."
+msgstr "Captcha-verificatie ontbreekt."
+
+#: addons/recaptcha.addon.php:223
+msgid "Captcha verification failed. Please try again."
+msgstr "Captcha-verificatie is mislukt. Probeer het opnieuw."
+
+#: addons/redsys.addon.php:86
+msgid "Enable TPV?"
+msgstr "TPV inschakelen?"
+
+#: addons/redsys.addon.php:94
+msgid ""
+"Note: If \"Pay Later\" or \"PayPal\" are selected, a radiobutton will appear in the "
+"form to select if the payment will be made with RedSys or not."
+msgstr ""
+"Opmerking: Als \"Later betalen\" of \"PayPal\" zijn geselecteerd, verschijnt er een "
+"keuzerondje in het formulier om te selecteren of de betaling met RedSys wordt gedaan of "
+"niet."
+
+#: addons/redsys.addon.php:96
+msgid "Label for the \"<strong>Pay with RedSys</strong>\" option"
+msgstr "Label voor de optie \"<strong>Betalen met RedSys</strong>\""
+
+#: addons/redsys.addon.php:102
+msgid "C&Oacute;DIGO COMERCIO"
+msgstr "C&Oacute;DIGO COMERCIO"
+
+#: addons/redsys.addon.php:106
+msgid "CLAVE SECRETA"
+msgstr "Geheime sleutel"
+
+#: addons/redsys.addon.php:110 addons/sagepay.addon.php:118
+msgid "Mode"
+msgstr "Modus"
+
+#: addons/redsys.addon.php:113 addons/sagepay.addon.php:121
+msgid "SandBox - Testing sandbox area"
+msgstr "SandBox - Sandbox-gebied testen"
+
+#: addons/redsys.addon.php:141
+msgid "The add-on adds support for RedSys TPV payments"
+msgstr "De add-on voegt ondersteuning toe voor RedSys TPV-betalingen"
+
+#: addons/reminder.addon.php:125
+msgid "The add-on adds support for reminder notifications"
+msgstr "De add-on voegt ondersteuning toe voor herinneringsmeldingen"
+
+#: addons/sagepay.addon.php:97
+msgid "Enable SagePay? (if enabled PayPal Standard is disabled)"
+msgstr "SagePay inschakelen? (indien ingeschakeld is PayPal Standaard uitgeschakeld)"
+
+#: addons/sagepay.addon.php:108
+msgid "Vendor ID"
+msgstr "Leveranciers-ID"
+
+#: addons/sagepay.addon.php:113
+msgid " SagePay Encrypt Password"
+msgstr " SagePay versleutelt wachtwoord"
+
+#: addons/sagepay.addon.php:126
+msgid "SagePay - Currency"
+msgstr "SagePay - Valuta"
+
+#: addons/sagepay.addon.php:150
+msgid "State"
+msgstr "Provincie"
+
+#: addons/sagepay.addon.php:181
+msgid "The add-on adds support for SagePay payments"
+msgstr "De add-on voegt ondersteuning toe voor SagePay-betalingen"
+
+#: addons/sagepay.addon.php:283
+msgid "Pay with SagePay"
+msgstr "Betalen met SagePay"
+
+#: addons/sagepayments.addon.php:81
+msgid "Enable SagePayments? (if enabled PayPal Standard is disabled)"
+msgstr "SagePayments inschakelen? (indien ingeschakeld is PayPal Standaard uitgeschakeld)"
+
+#: addons/sagepayments.addon.php:92
+msgid "Merchant ID (M_id)"
+msgstr "Verkopers-ID (M_id)"
+
+#: addons/sagepayments.addon.php:102
+msgid "Shipping/Freight:"
+msgstr "Verzending/Vracht:"
+
+#: addons/sagepayments.addon.php:107
+msgid "Tax:"
+msgstr "Belasting:"
+
+#: addons/sagepayments.addon.php:111
+msgid "First Name:"
+msgstr "Voornaam:"
+
+#: addons/sagepayments.addon.php:115
+msgid "Last Name:"
+msgstr "Achternaam:"
+
+#: addons/sagepayments.addon.php:119
+msgid "Address:"
+msgstr "Adres:"
+
+#: addons/sagepayments.addon.php:123
+msgid "City:"
+msgstr "Stad:"
+
+#: addons/sagepayments.addon.php:127
+msgid "State:"
+msgstr "Provincie:"
+
+#: addons/sagepayments.addon.php:131
+msgid "ZIP:"
+msgstr "Postcode:"
+
+msgid "Email:"
+msgstr "E-mail:"
+
+#: addons/sagepayments.addon.php:139
+msgid "Telephone:"
+msgstr "Telefoon:"
+
+#: addons/sagepayments.addon.php:163
+msgid "The add-on adds support for SagePayments payments"
+msgstr "De add-on voegt ondersteuning toe voor SagePayments-betalingen"
+
+#: addons/sagepayments.addon.php:266
+msgid "Pay with SagePayments"
+msgstr "Betalen met SagePayments"
+
+#: addons/salesforce.addon.php:65
+msgid "Organizational ID"
+msgstr "Organisatie ID"
+
+#: addons/salesforce.addon.php:69
+msgid "Enabling debug"
+msgstr "Foutopsporing inschakelen"
+
+#: addons/salesforce.addon.php:73
+msgid "Debug email"
+msgstr "E-mail foutopsporing"
+
+#: addons/salesforce.addon.php:76
+msgid "Lead Attributes"
+msgstr "Hoofdkenmerken"
+
+#: addons/salesforce.addon.php:184
+msgid "The add-on allows create SalesForce leads with the submitted information"
+msgstr "Met de add-on kunt u SalesForce-leads maken met de ingediende informatie"
+
+#: addons/signature.addon.php:109
+msgid "Signature Settings"
+msgstr "Handtekeninginstellingen"
+
+#: addons/signature.addon.php:112
+msgid "Color"
+msgstr "Kleur"
+
+#: addons/signature.addon.php:116
+msgid "Line thickness"
+msgstr "Lijndikte"
+
+#: addons/signature.addon.php:120
+msgid "Show guideline"
+msgstr "Toon richtlijn"
+
+#: addons/signature.addon.php:124
+msgid "Guideline color"
+msgstr "Richtlijn kleur"
+
+#: addons/signature.addon.php:143 addons/signature.addon.php:222
+msgid "Field name"
+msgstr "Veldnaam"
+
+#: addons/signature.addon.php:143 addons/signature.addon.php:226
+msgid "Enter the field name to be replaced by the signature"
+msgstr "Voer de veldnaam in die door de handtekening moet worden vervangen"
+
+#: addons/signature.addon.php:173
+msgid "The add-on allows to replace form fields with \"Signature\" fields"
+msgstr ""
+"De add-on maakt het mogelijk om formuliervelden te vervangen door \"Handtekening\" "
+"velden"
+
+#: addons/skrill.addon.php:67
+msgid "Enable Skrill Payments?"
+msgstr "Skrill Payments inschakelen?"
+
+#: addons/skrill.addon.php:78
+msgid "Skrill Email"
+msgstr "Skrill e-mail"
+
+#: addons/skrill.addon.php:113
+msgid "The add-on adds support for Skrill payments"
+msgstr "De add-on voegt ondersteuning toe voor Skrill-betalingen"
+
+#: addons/skrill.addon.php:174
+msgid "Pay with Skrill"
+msgstr "Betalen met Skrill"
+
+#: addons/status_update_emails.addon.php:169
+msgid ""
+"The add-on allows to define emails to be sent when the booking status is changed from "
+"the bookings list"
+msgstr ""
+"De add-on maakt het mogelijk om e-mails te definiëren, die worden verzonden wanneer de "
+"boekingsstatus wordt gewijzigd in de boekingslijst"
+
+#: addons/stripe.addon.php:78
+msgid "Enable Stripe?"
+msgstr "Inschakelen Stripe?"
+
+#: addons/stripe.addon.php:89
+msgid "click to get the your stripe key"
+msgstr "klik om je Stripe sleutel te krijgen"
+
+#: addons/stripe.addon.php:89
+msgid "Publishable Key"
+msgstr "Openbare Sleutel"
+
+#: addons/stripe.addon.php:93
+msgid "click to get the your stripe secret key"
+msgstr "klik om de geheime sleutel van uw Stripe te krijgen"
+
+#: addons/stripe.addon.php:97
+msgid "Stripe - Currency"
+msgstr "Stripe - Valuta"
+
+#: addons/stripe.addon.php:101
+msgid "Payment frequency?"
+msgstr "Betalingsfrequentie?"
+
+#: addons/stripe.addon.php:103
+msgid "One time payment"
+msgstr "Eenmalige betaling"
+
+#: addons/stripe.addon.php:104
+msgid "Daily (subcription)"
+msgstr "Dagelijks (abonnement)"
+
+#: addons/stripe.addon.php:105
+msgid "Weekly (subscription)"
+msgstr "Wekelijks (abonnement)"
+
+#: addons/stripe.addon.php:106
+msgid "Monthly (subscription)"
+msgstr "Maandelijks (abonnement)"
+
+#: addons/stripe.addon.php:107
+msgid "Yearly (subscription)"
+msgstr "Jaarlijks (abonnement)"
+
+#: addons/stripe.addon.php:112
+msgid "Trial period length in days for subscription payments"
+msgstr "Duur van de proefperiode in dagen voor abonnementsbetalingen"
+
+#: addons/stripe.addon.php:116
+msgid "Plan name for subscription payments"
+msgstr "Abonnementsnaam voor abonnementsbetalingen"
+
+#: addons/stripe.addon.php:142
+msgid "The add-on adds support for Stripe payments"
+msgstr "De add-on voegt ondersteuning toe voor Stripe-betalingen"
+
+#: addons/targetpay.ideal.addon.php:63
+msgid "Enable iDeal-TargetPay?"
+msgstr "Wilt u iDeal-TargetPay inschakelen?"
+
+#: addons/targetpay.ideal.addon.php:74
+msgid "RTLO Subaccount ID"
+msgstr "RTLO Subaccount ID"
+
+#: addons/targetpay.ideal.addon.php:82
+msgid "Payments Mode"
+msgstr "Betalingsmodus"
+
+#: addons/targetpay.ideal.addon.php:84
+msgid "Test Mode"
+msgstr "Testmodus"
+
+#: addons/targetpay.ideal.addon.php:85
+msgid "Production - Real Payments"
+msgstr "Productie - Real Payments"
+
+#: addons/targetpay.ideal.addon.php:109
+msgid "The add-on adds support for iDeal via TargetPay payments"
+msgstr "De add-on voegt ondersteuning toe voor iDeal via TargetPay betalingen"
+
+#: addons/targetpay.ideal.addon.php:220
+msgid "Pay with iDeal/TargetPay"
+msgstr "Betalen met iDeal/TargetPay"
+
+#: addons/timezoneconversion.addon.php:106
+msgid ""
+"The add-on applies the timezone conversion to display the time-slots in the customer "
+"timezone"
+msgstr ""
+"De add-on past de tijdzone-conversie toe om de tijdslots in de tijdzone van de klant "
+"weer te geven"
+
+#: addons/twiliosms.addon.php:124
+msgid "The add-on adds support for Twilio SMS notifications"
+msgstr "De add-on voegt ondersteuning toe voor Twilio SMS-meldingen"
+
+#: addons/uploads.addon.php:32
+msgid "Add the uploaded files to the media library"
+msgstr "Voeg de geüploade bestanden toe aan de mediabibliotheek"
+
+#: addons/uploads.addon.php:36
+msgid "Add Custom Media Types"
+msgstr "Aangepaste mediatypen toevoegen"
+
+#: addons/uploads.addon.php:43
+msgid "Adds the files extensions separated by comma: <strong>svg,xml,zip</strong>"
+msgstr ""
+"Voegt de extensies van de bestanden toe, gescheiden door komma’s: <strong>svg,xml,zip</"
+"strong>"
+
+#: addons/uploads.addon.php:757
+msgid ""
+"The add-on allows to add the uploaded files to the Media Library, and the support for "
+"new mime types"
+msgstr ""
+"De add-on maakt het mogelijk om de geüploade bestanden toe te voegen aan de "
+"mediabibliotheek en de ondersteuning voor nieuwe mime-typen"
+
+#: addons/webhook.addon.php:67
+msgid "WebHook URL"
+msgstr "WebHook-URL"
+
+#: addons/webhook.addon.php:119
+msgid ""
+"The add-on allows put the submitted information to a webhook URL, and integrate the "
+"forms with the Zapier service"
+msgstr ""
+"De add-on maakt het mogelijk om de ingediende informatie naar een webhook URL te sturen "
+"en de formulieren te integreren met de Zapier service"
+
+#: addons/woocommerce.addon.php:26
+msgid "The add-on allows integrate the forms with WooCommerce products"
+msgstr ""
+"De add-on maakt het mogelijk om de formulieren te integreren met WooCommerce-producten"
+
+#: addons/woocommerce.addon.php:235 cp-admin-int-schedule.inc.php:81
+msgid "Data"
+msgstr "Data"
+
+#: addons/woocommerce.addon.php:370
+msgid "Contact Form to Email"
+msgstr "Contactformulier naar e-mail"
+
+#: addons/woocommerce.addon.php:388
+msgid "Enter the ID of the form"
+msgstr "Voer de ID van het formulier in"
+
+#: addons/woocommerce.addon.php:396
+msgid "Calculate the product price through the form"
+msgstr "Bereken de productprijs via het formulier"
+
+#: addons/woocommerce.addon.php:404
+msgid "Minimum price allowed (numbers only)"
+msgstr "Minimumprijs toegestaan (alleen nummers)"
+
+#: addons/woocommerce.addon.php:412
+msgid ""
+"The summary section is optional. It is possible to use the special tags supported by "
+"the notification emails."
+msgstr ""
+"Het overzichtsgedeelte is optioneel. Het is mogelijk om de speciale tags te gebruiken "
+"die worden ondersteund door de e-mails met meldingen."
+
+#: addons/woocommerce.addon.php:417
+msgid "Activate the summary"
+msgstr "Activeer de samenvatting"
+
+#: addons/woocommerce.addon.php:425
+msgid "Summary title"
+msgstr "Samenvatting titel"
+
+#: addons/woocommerce.addon.php:433
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: controllers/elementor/cp-elementor-widget.inc.php:54
+msgid "CodePeople"
+msgstr "CodePeople"
+
+#: controllers/elementor/elementorwidget_class.inc.php:82 cp-main-class.inc.php:623
+#: cp-main-class.inc.php:625
+msgid "Insert Appointment Hour Booking"
+msgstr "Appointment Hour Booking invoegen"
+
+#: controllers/elementor/elementorwidget_class.inc.php:96
+msgid "Select Form"
+msgstr "Selecteer formulier"
+
+#: cp-addons.inc.php:129
+msgid "Appointment Hour Booking - Add Ons"
+msgstr "Appointment Hour Booking - Add-ons"
+
+#: cp-addons.inc.php:135 cp-admin-int-add-booking.inc.php:36
+#: cp-admin-int-message-list.inc.php:93 cp-admin-int-message-list.inc.php:201
+#: cp-admin-int-report.inc.php:114 cp-admin-int-report.inc.php:233
+#: cp-admin-int-schedule.inc.php:35 cp-admin-int-schedule.inc.php:103
+#: cp-admin-int.inc.php:69 cp-admin-int.inc.php:774 cp-publish-wizzard.inc.php:35
+msgid "Return to the calendars list"
+msgstr "Terug naar de lijst met agenda's"
+
+#: cp-addons.inc.php:144
+msgid "Active Add Ons"
+msgstr "Actieve add-ons"
+
+#: cp-addons.inc.php:161
+msgid "Top"
+msgstr "Boven"
+
+#: cp-admin-int-add-booking.inc.php:33 cp-admin-int-list.inc.php:221
+msgid "Add Booking"
+msgstr "Boeking toevoegen"
+
+#: cp-admin-int-add-booking.inc.php:40
+msgid ""
+"This page is for adding bookings from the administration area. The captcha and payment "
+"process are disabled in order to allow the website manager easily adding bookings."
+msgstr ""
+"Deze pagina is voor het toevoegen van boekingen vanuit de beheer sectie. De captcha en "
+"het betalingsproces zijn uitgeschakeld zodat de beheerder eenvoudig boekingen kan "
+"toevoegen."
+
+#: cp-admin-int-list.inc.php:92
+msgid "Access verification error. Cannot update settings."
+msgstr "Fout bij toegangsverificatie. Kan instellingen niet bijwerken."
+
+#: cp-admin-int-list.inc.php:96
+msgid "License ID updated"
+msgstr "Licentie-ID bijgewerkt"
+
+#: cp-admin-int-list.inc.php:185
+msgid "New Calendar"
+msgstr "Nieuwe kalender"
+
+#: cp-admin-int-list.inc.php:186
+msgid "Calendar Name"
+msgstr "Naam kalender"
+
+#: cp-admin-int-list.inc.php:187
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: cp-admin-int-list.inc.php:192
+msgid "Calendars List"
+msgstr "Kalenderlijst"
+
+#: cp-admin-int-list.inc.php:199 cp-admin-int-message-list.inc.php:148
+msgid "ID"
+msgstr "ID"
+
+#: cp-admin-int-list.inc.php:199
+msgid "Form Name"
+msgstr "Formuliernaam"
+
+#: cp-admin-int-list.inc.php:199 cp-admin-int-message-list.inc.php:153
+msgid "Options"
+msgstr "Opties"
+
+#: cp-admin-int-list.inc.php:199
+msgid "Shortcode for Pages and Posts"
+msgstr "Shortcode voor pagina's en berichten"
+
+#: cp-admin-int-list.inc.php:215
+msgid "Rename"
+msgstr "Naam wijzigen"
+
+#: cp-admin-int-list.inc.php:216 cp-admin-int.inc.php:58
+msgid "Edit"
+msgstr "Bewerk"
+
+#: cp-admin-int-list.inc.php:217
+msgid "Publish"
+msgstr "Publiceer"
+
+#: cp-admin-int-list.inc.php:219 cp-admin-int-message-list.inc.php:90
+msgid "Booking Orders"
+msgstr "Boekingsbestellingen"
+
+#: cp-admin-int-list.inc.php:220 cp-admin-int-schedule.inc.php:26
+msgid "Schedule"
+msgstr "Planning"
+
+#: cp-admin-int-list.inc.php:222 cp-admin-int-report.inc.php:111
+msgid "Stats"
+msgstr "Statistieken"
+
+#: cp-admin-int-list.inc.php:224
+msgid "Clone"
+msgstr "Dupliceer"
+
+#: cp-admin-int-list.inc.php:225
+msgid "Delete"
+msgstr "Verwijder"
+
+#: cp-admin-int-list.inc.php:311
+msgid "Plugin License"
+msgstr "Plugin Licentie"
+
+#: cp-admin-int-list.inc.php:316
+msgid "License ID"
+msgstr "Licentie ID"
+
+#: cp-admin-int-list.inc.php:318
+msgid "Website ID"
+msgstr "Website-id"
+
+#: cp-admin-int-list.inc.php:321
+msgid "License Status"
+msgstr "Licentie status"
+
+#: cp-admin-int-list.inc.php:324
+msgid "Click to display the License Status."
+msgstr "Klik hierop om de licentiestatus weer te geven."
+
+#: cp-admin-int-list.inc.php:327
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: cp-admin-int-list.inc.php:333 cp-admin-int.inc.php:781
+msgid "Request Custom Modifications"
+msgstr "Aangepaste wijzigingen aanvragen"
+
+#: cp-admin-int-list.inc.php:333 cp-admin-int.inc.php:781 cp-main-class.inc.php:568
+msgid "Help"
+msgstr "Help"
+
+#: cp-admin-int-message-list.inc.php:25
+msgid "Manually updated"
+msgstr "Handmatig bijgewerkt"
+
+#: cp-admin-int-message-list.inc.php:103 cp-admin-int-report.inc.php:126
+msgid "Search for"
+msgstr "Zoek naar"
+
+#: cp-admin-int-message-list.inc.php:104 cp-admin-int-report.inc.php:127
+#: cp-admin-int-schedule.inc.php:47
+msgid "From"
+msgstr "Van"
+
+#: cp-admin-int-message-list.inc.php:105 cp-admin-int-report.inc.php:128
+#: cp-admin-int-schedule.inc.php:48
+msgid "To"
+msgstr "Aan"
+
+#: cp-admin-int-message-list.inc.php:106 cp-admin-int-report.inc.php:129
+#: cp-admin-int-schedule.inc.php:54
+msgid "Item"
+msgstr "Item"
+
+#: cp-admin-int-message-list.inc.php:107 cp-admin-int-report.inc.php:130
+#: cp-admin-int-schedule.inc.php:55
+msgid "All Items"
+msgstr "Alle items"
+
+#: cp-admin-int-message-list.inc.php:115 cp-admin-int-report.inc.php:138
+#: cp-admin-int-schedule.inc.php:63
+msgid "Export to CSV"
+msgstr "Exporteer naar CSV"
+
+#: cp-admin-int-message-list.inc.php:116 cp-admin-int-report.inc.php:139
+#: cp-admin-int-schedule.inc.php:64
+msgid "Filter"
+msgstr "Filter"
+
+#: cp-admin-int-message-list.inc.php:135
+msgid "&laquo; Previous"
+msgstr "&laquo; Vorige"
+
+#: cp-admin-int-message-list.inc.php:136
+msgid "Next &raquo;"
+msgstr "Volgende &raquo;"
+
+#: cp-admin-int-message-list.inc.php:149
+msgid "Submission Date"
+msgstr "Datum van inzending"
+
+#: cp-admin-int-message-list.inc.php:152 cp-admin-int-schedule.inc.php:49
+msgid "Paid Status"
+msgstr "Betaalstatus"
+
+#: cp-admin-int-message-list.inc.php:182 cp-admin-int-schedule.inc.php:79
+msgid "Paid"
+msgstr "Betaald"
+
+#: cp-admin-int-report.inc.php:148
+msgid "Submissions per day"
+msgstr "Inzendingen per dag"
+
+#: cp-admin-int-report.inc.php:154
+msgid "Submissions per day in the selected date range."
+msgstr "Inzendingen per dag in het geselecteerde datumbereik."
+
+#: cp-admin-int-report.inc.php:154
+msgid "Days from"
+msgstr "Dagen vanaf"
+
+#: cp-admin-int-report.inc.php:161
+msgid "Submissions per hour"
+msgstr "Inzendingen per uur"
+
+#: cp-admin-int-report.inc.php:167
+msgid "Total submissions per hour in the selected date range."
+msgstr "Totaal aantal inzendingen per uur in het geselecteerde datumbereik."
+
+#: cp-admin-int-report.inc.php:167
+msgid "Hours from 0 to 23"
+msgstr "Uren van 0 tot 23"
+
+#: cp-admin-int-report.inc.php:184
+msgid "Select field for the report"
+msgstr "Veld selecteren voor het rapport"
+
+#: cp-admin-int-report.inc.php:197
+msgid "Report of values for"
+msgstr "Rapport van waarden voor"
+
+#: cp-admin-int-report.inc.php:221
+msgid ""
+"Number of times that appears each value. Percent in relation to the total of "
+"submissions."
+msgstr ""
+"Aantal keren dat elke waarde wordt weergegeven. Percentage ten opzichte van het totaal "
+"aantal inzendingen."
+
+#: cp-admin-int-report.inc.php:221
+msgid "Date range from"
+msgstr "Datumbereik vanaf"
+
+#: cp-admin-int-report.inc.php:221
+msgid "to"
+msgstr "tot"
+
+#: cp-admin-int-report.inc.php:232
+msgid "Print Stats"
+msgstr "Statistieken afdrukken"
+
+#: cp-admin-int-schedule.inc.php:31
+msgid "Change to Schedule Calendar View"
+msgstr "Wijzig naar  planning kalenderweergave"
+
+#: cp-admin-int-schedule.inc.php:33
+msgid "Change to Schedule List View"
+msgstr "Wijzig naar planning lijstweergave"
+
+#: cp-admin-int-schedule.inc.php:50
+msgid "All"
+msgstr "Alle"
+
+#: cp-admin-int-schedule.inc.php:51
+msgid "Paid only"
+msgstr "Alleen betaalde"
+
+#: cp-admin-int-schedule.inc.php:53 cp-admin-int.inc.php:314
+msgid "Booking Status"
+msgstr "Boeking status"
+
+#: cp-admin-int-schedule.inc.php:77
+msgid "Slot"
+msgstr "Periode"
+
+#: cp-admin-int-schedule.inc.php:78
+msgid "Service"
+msgstr "Service"
+
+#: cp-admin-int-schedule.inc.php:82
+msgid "Status"
+msgstr "Status"
+
+#: cp-admin-int-schedule.inc.php:102
+msgid "Print"
+msgstr "Afdrukken"
+
+#: cp-admin-int-schedule.inc.php:112
+msgid ""
+"The purpose of this page is to <strong>display the bookings/schedule in a calendar "
+"view</strong>. You can add bookings from the public booking form or"
+msgstr ""
+"Het doel van deze pagina is om <strong> de boekings/planning weer te geven in een "
+"kalenderweergave </strong>. Je kunt boekingen toevoegen via het openbare "
+"boekingsformulier of"
+
+#: cp-admin-int-schedule.inc.php:112
+msgid "add bookings from the dashboard"
+msgstr "boekingen toevoegen vanaf het dashboard"
+
+#: cp-admin-int-schedule.inc.php:112
+msgid ""
+"and the bookings will appear in this calendar.<br />For CSV export, print and filter "
+"options switch to the \"<strong>List View</strong>\" with the button above this text."
+msgstr ""
+"en de boekingen zullen in deze kalender verschijnen.<br />Voor CSV-export, afdruk- en "
+"filteropties gaat u naar de <strong>\"Lijstweergave\"</strong>\" met de knop boven deze "
+"tekst."
+
+#: cp-admin-int.inc.php:68
+msgid "Save Changes and Return"
+msgstr "Wijzigingen opslaan en teruggaan"
+
+#: cp-admin-int.inc.php:77
+msgid "Editor"
+msgstr "Editor"
+
+#: cp-admin-int.inc.php:81
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: cp-admin-int.inc.php:85
+msgid "Notification Emails"
+msgstr "E-mails met meldingen"
+
+#: cp-admin-int.inc.php:89
+msgid "Antispam"
+msgstr "Anti spam"
+
+#: cp-admin-int.inc.php:93
+msgid "Reports"
+msgstr "Rapporten"
+
+#: cp-admin-int.inc.php:97
+msgid "Add Ons"
+msgstr "Add Ons"
+
+#: cp-admin-int.inc.php:179
+msgid "Add a Field"
+msgstr "Voeg een veld toe"
+
+#: cp-admin-int.inc.php:180
+msgid "Field Settings"
+msgstr "Veld Instellingen"
+
+#: cp-admin-int.inc.php:181
+msgid "Form Settings"
+msgstr "Formulier instellingen"
+
+#: cp-admin-int.inc.php:205
+msgid "Labels and Texts"
+msgstr "Labels en teksten"
+
+#: cp-admin-int.inc.php:208
+msgid "Button Labels"
+msgstr "Knoplabels"
+
+#: cp-admin-int.inc.php:213
+msgid "Submit button label (text)"
+msgstr "Verzendknop label (tekst)"
+
+#: cp-admin-int.inc.php:217
+msgid "Page {0} of {0} (text"
+msgstr "Pagina {0} van {0} (tekst"
+
+#: cp-admin-int.inc.php:223
+msgid "Previous page button label (text)"
+msgstr "Label van knop Vorige pagina (tekst)"
+
+#: cp-admin-int.inc.php:226
+msgid "Next page button label (text)"
+msgstr "Label van knop Volgende pagina (tekst)"
+
+#: cp-admin-int.inc.php:237
+msgid "Error messages for validation rules"
+msgstr "Foutberichten voor validatieregels"
+
+#: cp-admin-int.inc.php:242
+msgid "\"is required\" text"
+msgstr "tekst \"is vereist\""
+
+#: cp-admin-int.inc.php:246
+msgid "\"is email\" text"
+msgstr "\"is e-mail\" tekst"
+
+#: cp-admin-int.inc.php:252
+msgid "\"is valid captcha\" text"
+msgstr "\"is geldige captcha\" tekst"
+
+#: cp-admin-int.inc.php:255
+msgid "\"is valid date (mm/dd/yyyy)\" text"
+msgstr "\"is geldige datum (mm/dd/jjjj)\" tekst"
+
+#: cp-admin-int.inc.php:259
+msgid "\"is valid date (dd/mm/yyyy)\" text"
+msgstr "\"is geldige datum (dd/mm/jjjj)\" tekst"
+
+#: cp-admin-int.inc.php:263
+msgid "\"is number\" text"
+msgstr "\"is nummer\" tekst"
+
+#: cp-admin-int.inc.php:269
+msgid "\"only digits\" text"
+msgstr "Tekst \"alleen cijfers\""
+
+#: cp-admin-int.inc.php:273
+msgid "\"under maximum\" text"
+msgstr "Tekst \"onder maximum\""
+
+#: cp-admin-int.inc.php:279
+msgid "\"over minimum\" text"
+msgstr "Tekst \"over minimum\""
+
+#: cp-admin-int.inc.php:283
+msgid "\"Max appointments allowed messsage\" text"
+msgstr "Tekst \"Max afspraken toegestaan\""
+
+#: cp-admin-int.inc.php:292
+msgid "Next Step - General Settings >"
+msgstr "Volgende stap - Algemene instellingen >"
+
+#: cp-admin-int.inc.php:293 cp-admin-int.inc.php:468 cp-admin-int.inc.php:604
+#: cp-admin-int.inc.php:676 cp-admin-int.inc.php:739 cp-admin-int.inc.php:765
+msgid "Save and Publish"
+msgstr "Bewaar en publiceer"
+
+#: cp-admin-int.inc.php:294 cp-admin-int.inc.php:469 cp-admin-int.inc.php:605
+#: cp-admin-int.inc.php:677 cp-admin-int.inc.php:740 cp-admin-int.inc.php:766
+msgid "Save and Return"
+msgstr "Bewaar en teruggaan"
+
+#: cp-admin-int.inc.php:304 cp-admin-int.inc.php:307
+msgid "Confirmation / Thank you page"
+msgstr "Bevestiging / bedank pagina"
+
+#: cp-admin-int.inc.php:309
+msgid ""
+"Address / URL of the page where the user will be redirected after submiting the booking "
+"form"
+msgstr ""
+"Adres / URL van de pagina waarnaar de gebruiker wordt doorgestuurd na het indienen van "
+"het boekingsformulier"
+
+#: cp-admin-int.inc.php:317
+msgid "Default status of new bookings"
+msgstr "Standaardstatus van nieuwe boekingen"
+
+#: cp-admin-int.inc.php:319
+msgid "Only \"Approved\" items are taken in account for the availability verification."
+msgstr ""
+"Alleen \"Goedgekeurde\" items worden in aanmerking genomen voor de beschikbaarheid "
+"verificatie."
+
+#: cp-admin-int.inc.php:322
+msgid "Default status of paid bookings"
+msgstr "Standaardstatus van betaalde boekingen"
+
+#: cp-admin-int.inc.php:324
+msgid ""
+"If a payment add-on is enabled the booking will be changed to this status after the "
+"payment."
+msgstr ""
+"Als er een betalings add-on is ingeschakeld, zal de boeking na de betaling in deze "
+"status worden gewijzigd."
+
+#: cp-admin-int.inc.php:330
+msgid "Global Calendar Settings"
+msgstr "Algemene agenda-instellingen"
+
+#: cp-admin-int.inc.php:333
+msgid "Date Format"
+msgstr "Datumformaat"
+
+#: cp-admin-int.inc.php:348
+msgid "Calendar Language"
+msgstr "Kalender taal"
+
+#: cp-admin-int.inc.php:431
+msgid "Payment Integration Settings"
+msgstr "Instellingen voor betalingsintegratie"
+
+#: cp-admin-int.inc.php:435
+msgid "Product name at payment page"
+msgstr "Productnaam op betaalpagina"
+
+#: cp-admin-int.inc.php:439
+msgid "Label of \"Pay Later\" option (if enabled)"
+msgstr "Label van de optie \"Later betalen\" (indien ingeschakeld)"
+
+#: cp-admin-int.inc.php:443
+msgid "Note: To enable a payment method enable first the related addon."
+msgstr ""
+"Opmerking: Schakel eerst de bijbehorende add-on in om een betaalmethode in te schakelen."
+
+#: cp-admin-int.inc.php:446
+msgid "Users with access to the messages list"
+msgstr "Gebruikers met toegang tot de berichtenlijst"
+
+#: cp-admin-int.inc.php:450
+msgid "Select users with access (CTRL+click for multiple selection)"
+msgstr "Selecteer gebruikers met toegang (CTRL + klik voor meervoudige selectie)"
+
+#: cp-admin-int.inc.php:467
+msgid "Next Step - Notification Emails >"
+msgstr "Volgende stap - Kennisgeving e-mails >"
+
+#: cp-admin-int.inc.php:475
+msgid "From / To Email Addresses"
+msgstr "Van / naar e-mailadressen"
+
+#: cp-admin-int.inc.php:480
+msgid "Send email \"From\""
+msgstr "Stuur e-mail “Van”"
+
+#: cp-admin-int.inc.php:484
+msgid "From fixed email address indicated below - Recommended option"
+msgstr "Vanaf het onderstaande vaste e-mailadres - Aanbevolen optie"
+
+#: cp-admin-int.inc.php:485
+msgid "From the email address indicated by the customer"
+msgstr "Van het door de klant opgegeven emailadres"
+
+#: cp-admin-int.inc.php:488
+msgid ""
+"If you select \"from fixed...\" the customer email address will appear in the \"to\" "
+"address when you hit \"reply\", this is the recommended setting to avoid mail server "
+"restrictions."
+msgstr ""
+"Als u “ vanaf vast…” selecteert, zal het e-mailadres van de klant verschijnen in het "
+"“aan”-adres wanneer u op “beantwoorden” drukt, dit is de aanbevolen instelling om "
+"mailserverbeperkingen te vermijden."
+
+#: cp-admin-int.inc.php:490
+msgid ""
+"If you select \"from customer email\" then the customer email will appear also visually "
+"when you receive the email, but this isn't supported by all hosting services, so this\n"
+"                option isn't recommended in most cases."
+msgstr ""
+"Als u \"vanaf e-mail van de klant\" selecteert, wordt de e-mail van de klant ook "
+"visueel weergegeven wanneer u de e-mail ontvangt, maar dit wordt niet door alle "
+"hostingservices ondersteund, dus deze\n"
+"                optie wordt in de meeste gevallen niet aanbevolen."
+
+#: cp-admin-int.inc.php:496
+msgid "\"From\" email (for fixed \"from\" addresses)"
+msgstr "\"Van\" e-mail (voor vaste \"van\" -adressen)"
+
+#: cp-admin-int.inc.php:500
+msgid "Send email \"To\""
+msgstr "Stuur e-mail \"Aan\""
+
+#: cp-admin-int.inc.php:504
+msgid "To the fixed email(s) address(es) indicated below - Recommended option"
+msgstr "Naar de vaste e-mailadres(s) die hieronder worden aangegeven - Aanbevolen optie"
+
+#: cp-admin-int.inc.php:505
+msgid ""
+"To the email address selected in a form field (ex: captcha image enabled is recommended "
+"in this case)"
+msgstr ""
+"Naar het e-mailadres dat in een formulierveld is geselecteerd (bv.: in dit geval wordt "
+"captcha-afbeelding ingeschakeld aanbevolen)"
+
+#: cp-admin-int.inc.php:508
+msgid "If you select \"To fixed...\" enter the destination emails in the next field. "
+msgstr ""
+"Als u “Naar vast…” selecteert, voert u in het volgende veld de e-mails van de "
+"bestemming in. "
+
+#: cp-admin-int.inc.php:510
+msgid ""
+"If you select \"To email ...in form field\" then add a field like a drop-down, radio-"
+"button or checkbox that contains the email address in the field value (not needed in "
+"the field text but in the internal value)."
+msgstr ""
+"Als u “Naar e-mail …in formulierveld” selecteert, voeg dan een veld toe zoals een drop-"
+"down, radio-button of checkbox dat het e-mail adres in de veldwaarde bevat (niet nodig "
+"in de veldtekst maar in de interne waarde)."
+
+#: cp-admin-int.inc.php:515
+msgid "Destination emails (comma separated)"
+msgstr "Bestemmings e-mails (gescheiden door komma's)"
+
+#: cp-admin-int.inc.php:519
+msgid "Field that contains the destination email(s)"
+msgstr "Veld dat de bestemmings-e-mail(s) bevat"
+
+#: cp-admin-int.inc.php:528
+msgid "Email Notification to Website Administrator"
+msgstr "E-mail kennisgeving aan sitebeheerder"
+
+msgid "Email subject"
+msgstr "E-mail onderwerp"
+
+#: cp-admin-int.inc.php:537
+msgid "Include additional information?"
+msgstr "Aanvullende informatie toevoegen?"
+
+#: cp-admin-int.inc.php:548 cp-admin-int.inc.php:586 cp-admin-int.inc.php:721
+#: cp-settings.inc.php:164
+msgid "Email format?"
+msgstr "E-mail formaat?"
+
+#: cp-admin-int.inc.php:552 cp-admin-int.inc.php:590 cp-admin-int.inc.php:725
+#: cp-settings.inc.php:168
+msgid "Plain Text (default)"
+msgstr "Platte tekst (standaard)"
+
+#: cp-admin-int.inc.php:553 cp-admin-int.inc.php:591 cp-admin-int.inc.php:726
+#: cp-settings.inc.php:169
+msgid "HTML (use html in the textarea below)"
+msgstr "HTML (gebruik html in het tekstgebied hieronder)"
+
+#: cp-admin-int.inc.php:564
+msgid "Email Copy to the User / Customer"
+msgstr "E-mail kopie naar de gebruiker / klant"
+
+#: cp-admin-int.inc.php:568
+msgid "Send confirmation/thank you message to user?"
+msgstr "Bevestigings-/bedankbericht naar gebruiker sturen?"
+
+#: cp-admin-int.inc.php:578
+msgid "Email field on the form"
+msgstr "E-mailveld op het formulier"
+
+#: cp-admin-int.inc.php:603
+msgid "Next Step - Antispam >"
+msgstr "Volgende stap - Antispam >"
+
+#: cp-admin-int.inc.php:612
+msgid "Captcha Verification"
+msgstr "Captcha verificatie"
+
+#: cp-admin-int.inc.php:616
+msgid "Use Captcha Verification?"
+msgstr "Captcha-verificatie gebruiken?"
+
+#: cp-admin-int.inc.php:627
+msgid "Width"
+msgstr "Breedte"
+
+#: cp-admin-int.inc.php:629
+msgid "Height"
+msgstr "Hoogte"
+
+#: cp-admin-int.inc.php:631
+msgid "Chars"
+msgstr "Tekens"
+
+#: cp-admin-int.inc.php:636
+msgid "Min font size"
+msgstr "Minimale lettertype grootte"
+
+#: cp-admin-int.inc.php:638
+msgid "Max font size"
+msgstr "Maximale lettertype grootte"
+
+#: cp-admin-int.inc.php:641
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: cp-admin-int.inc.php:649
+msgid "Noise"
+msgstr "Ruis"
+
+#: cp-admin-int.inc.php:651
+msgid "Noise Length"
+msgstr "Ruis lengte"
+
+#: cp-admin-int.inc.php:657
+msgid "Background"
+msgstr "Achtergrond"
+
+#: cp-admin-int.inc.php:659
+msgid "Border"
+msgstr "Rand"
+
+#: cp-admin-int.inc.php:661
+msgid "Font"
+msgstr "Lettertype"
+
+#: cp-admin-int.inc.php:675
+msgid "Next Step - Reports >"
+msgstr "Volgende stap - Rapporten >"
+
+#: cp-admin-int.inc.php:683
+msgid "Automatic Reports: Send submissions in CSV format via email"
+msgstr "Automatische rapporten: verzend inzendingen in CSV format via e-mail"
+
+#: cp-admin-int.inc.php:687 cp-settings.inc.php:133
+msgid "Enable Reports?"
+msgstr "Rapporten inschakelen?"
+
+#: cp-admin-int.inc.php:697 cp-settings.inc.php:140
+msgid "Send report every"
+msgstr "Verstuur rapport elke"
+
+#: cp-admin-int.inc.php:698
+msgid "days (Put a 0 to send the report immediately after each submission)"
+msgstr "dagen (plaats een 0 om het rapport direct na elke inzending te verzenden)"
+
+#: cp-admin-int.inc.php:701
+msgid "Send report after this hour (server time)"
+msgstr "Verzend rapport na deze tijd (servertijd)"
+
+#: cp-admin-int.inc.php:713
+msgid "Send the report to the following email addresses (comma separated)"
+msgstr "Verzend het rapport naar de volgende e-mailadressen (gescheiden door komma's)"
+
+#: cp-admin-int.inc.php:731
+msgid "Email Text (CSV file will be attached with the submissions)"
+msgstr "E-mail tekst (CSV bestand wordt bijgevoegd bij de inzendingen)"
+
+#: cp-admin-int.inc.php:738
+msgid "Next Step - Add Ons >"
+msgstr "Volgende stap - Add-ons>"
+
+#: cp-admin-int.inc.php:751
+msgid "<h2>Add-Ons Settings:</h2><hr />"
+msgstr "<h2>Add-ons Instellingen:</h2><hr />"
+
+#: cp-admin-int.inc.php:757
+msgid "You can optionally"
+msgstr "Optioneel kunt je"
+
+#: cp-admin-int.inc.php:757
+msgid "activate add ons in the add ons section"
+msgstr "add-ons activeren in het gedeelte add-ons"
+
+#: cp-admin-int.inc.php:758
+msgid "The add ons can be enabled to add new features."
+msgstr "De add-ons kunnen worden ingeschakeld om nieuwe functies toe te voegen."
+
+#: cp-admin-int.inc.php:759
+msgid ""
+"If you don't want to enable add ons now then <strong>continue saving these settings and "
+"publishing the booking form</strong>."
+msgstr ""
+"Als je add-ons nu niet wilt inschakelen, <strong> sla deze instellingen dan op en "
+"publiceer het boekingsformulier.</strong>."
+
+#: cp-admin-int.inc.php:781
+msgid "Free Support"
+msgstr "Gratis ondersteuning"
+
+#: cp-main-class.inc.php:199
+msgid "[All]"
+msgstr "[Alle]"
+
+#: cp-main-class.inc.php:409
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: cp-main-class.inc.php:410
+msgid "Cost"
+msgstr "Kosten"
+
+#: cp-main-class.inc.php:564
+msgid "Request custom changes"
+msgstr "Vraag aangepaste wijzigingen aan"
+
+#: cp-main-class.inc.php:566
+msgid "Settings"
+msgstr "Instellingen"
+
+#: cp-main-class.inc.php:623 cp-main-class.inc.php:625
+msgid "Insert  Appointment Hour Booking"
+msgstr "Invoegen  Appointment Hour Booking"
+
+#: cp-public-int.inc.php:27
+msgid "Security Code"
+msgstr "Beveiligingscode"
+
+#: cp-publish-wizzard.inc.php:3
+msgid "Publish Appointment Hour Booking Form"
+msgstr "Publiceer het Appointment Hour Booking formulier"
+
+#: cp-publish-wizzard.inc.php:48
+msgid "Great! Form successfully published"
+msgstr "Super! Formulier succesvol gepubliceerd"
+
+#: cp-publish-wizzard.inc.php:49
+msgid "The booking form was placed into the page"
+msgstr "Het boekingsformulier is op de pagina geplaatst"
+
+#: cp-publish-wizzard.inc.php:50
+msgid "Now you can:"
+msgstr "Nu kan je:"
+
+#: cp-publish-wizzard.inc.php:52
+msgid "View the Published Booking Form"
+msgstr "Het gepubliceerde boekingsformulier bekijken"
+
+#: cp-publish-wizzard.inc.php:54
+msgid ""
+"Note: If the calendar was published in a new page or post it will be a 'draft', you "
+"have to publish the page/post in the future if needed."
+msgstr ""
+"Opmerking: Als de kalender werd gepubliceerd in een nieuwe pagina of post zal het nog "
+"een “ontwerp” zijn, u moet de pagina/post in de toekomst publiceren indien nodig."
+
+#: cp-publish-wizzard.inc.php:56
+msgid "Edit the booking form settings and calendar availability"
+msgstr ""
+"Bewerk de instellingen van het boekingsformulier en de beschikbaarheid van de kalender"
+
+#: cp-publish-wizzard.inc.php:70
+msgid "Select calendar"
+msgstr "Selecteer kalender"
+
+#: cp-publish-wizzard.inc.php:82
+msgid "Where to publish it?"
+msgstr "Waar publiceren?"
+
+#: cp-publish-wizzard.inc.php:85
+msgid "Into a new page"
+msgstr "In een nieuwe pagina"
+
+#: cp-publish-wizzard.inc.php:86
+msgid "Into a new post"
+msgstr "In een nieuw bericht"
+
+#: cp-publish-wizzard.inc.php:87
+msgid "Into an existent page"
+msgstr "In een bestaande pagina"
+
+#: cp-publish-wizzard.inc.php:88
+msgid "Into an existent post"
+msgstr "In een bestaand bericht"
+
+#: cp-publish-wizzard.inc.php:89
+msgid "Widget in a sidebar, header or footer"
+msgstr "Widget in een zijbalk, header of footer"
+
+#: cp-publish-wizzard.inc.php:94
+msgid "Page/Post Title"
+msgstr "Pagina/Bericht titel"
+
+#: cp-publish-wizzard.inc.php:103
+msgid "Classic way? Just copy and paste the following shortcode into the page/post:"
+msgstr "Klassieke manier? Kopieer en plak gewoon de volgende shortcode in de pagina/post:"
+
+#: cp-publish-wizzard.inc.php:111
+msgid "Using Elementor?"
+msgstr "Gebruik je Elementor?"
+
+#: cp-publish-wizzard.inc.php:117
+msgid "Using New WordPress Editor (Gutenberg)?"
+msgstr "Gebruik je de nieuwe WordPress editor (Gutenberg)?"
+
+#: cp-publish-wizzard.inc.php:122
+msgid "Using classic WordPress editor or other editors?"
+msgstr "Gebruik je de klassieke WordPress editor of andere editors?"
+
+#: cp-publish-wizzard.inc.php:124 cp-publish-wizzard.inc.php:207
+msgid "You can also publish the form in a post/page, use the dedicated icon"
+msgstr ""
+"Je kunt het formulier ook in een bericht/pagina publiceren, gebruik het speciale "
+"pictogram"
+
+#: cp-publish-wizzard.inc.php:124 cp-publish-wizzard.inc.php:207
+msgid "Insert "
+msgstr "Invoegen "
+
+#: cp-publish-wizzard.inc.php:125
+msgid ""
+"which has been added to your Upload/Insert Menu, just below the title of your Post/Page"
+msgstr ""
+"die is toegevoegd aan je menu Uploaden/Invoegen, net onder de titel van je bericht/"
+"pagina"
+
+#: cp-publish-wizzard.inc.php:142
+msgid "Select post"
+msgstr "Selecteer bericht"
+
+#: cp-publish-wizzard.inc.php:161
+msgid "Publish Calendar"
+msgstr "Publiceer kalender"
+
+#: cp-publish-wizzard.inc.php:205
+msgid "Note"
+msgstr "Notitie"
+
+#: cp-publish-wizzard.inc.php:208
+msgid ""
+"which has been added to your Upload/Insert Menu, just below the title of your Post/Page "
+"or under the \"+\" icon if using the Gutenberg editor."
+msgstr ""
+"die is toegevoegd aan je menu Uploaden/Invoegen, net onder de titel van je bericht/"
+"pagina of onder het pictogram \"+\" als je de Gutenberg editor gebruikt."
+
+#: cp-settings.inc.php:112
+msgid "Appointment Hour Booking - General Settings"
+msgstr "Appointment Hour Booking - Algemene instellingen"
+
+#: cp-settings.inc.php:118
+msgid "Email Report Settings"
+msgstr "Instellingen e-mail rapport"
+
+#: cp-settings.inc.php:119 cp-settings.inc.php:187
+msgid "Troubleshoot Area"
+msgstr "Probleemoplosser gebied"
+
+#: cp-settings.inc.php:120 cp-settings.inc.php:227
+msgid "Edit Styles"
+msgstr "Stijlen bewerken"
+
+#: cp-settings.inc.php:121 cp-settings.inc.php:317
+msgid "Edit Scripts"
+msgstr "Scripts bewerken"
+
+#: cp-settings.inc.php:126
+msgid "Automatic Email Reports"
+msgstr "Automatische e-mail rapporten"
+
+#: cp-settings.inc.php:127
+msgid ""
+"Automatic email reports for <b>ALL forms</b>: Send submissions in CSV format via email."
+msgstr ""
+"Automatische e-mailrapporten voor <b>Alle formulieren</b>: Stuur inzendingen in CSV-"
+"formaat via e-mail."
+
+#: cp-settings.inc.php:140
+msgid "days"
+msgstr "dagen"
+
+#: cp-settings.inc.php:142
+msgid "Send after this hour (server time)"
+msgstr "Verzend na deze tijd (servertijd)"
+
+#: cp-settings.inc.php:152
+msgid "Send email from"
+msgstr "E-mail verzenden vanaf"
+
+#: cp-settings.inc.php:156
+msgid "Send to email(s)"
+msgstr "Verzenden naar e-mail(s)"
+
+#: cp-settings.inc.php:174
+msgid "Email Text (CSV file will be attached"
+msgstr "E-mail tekst (CSV-bestand wordt bijgevoegd"
+
+#: cp-settings.inc.php:181
+msgid ""
+"Note: For setting up a report only for a specific form use the setting area available "
+"for that when editing each form settings"
+msgstr ""
+"Opmerking: Als u een rapport alleen voor een bepaald formulier wilt instellen, gebruikt "
+"u het daarvoor beschikbare instellingsgebied bij het bewerken van de "
+"formulierinstellingen"
+
+#: cp-settings.inc.php:188
+msgid "Important!"
+msgstr "Belangrijk!"
+
+#: cp-settings.inc.php:188
+msgid ""
+"Use this area only if you are experiencing conflicts with third party plugins, with the "
+"theme scripts or with the character encoding."
+msgstr ""
+"Gebruik dit gebied alleen als u conflicten ondervindt met plugins van derden, met de "
+"themascripts of met de tekencodering."
+
+#: cp-settings.inc.php:196
+msgid "Script load method"
+msgstr "Methode voor het laden van scripts"
+
+#: cp-settings.inc.php:200
+msgid "Classic (Recommended)"
+msgstr "Klassiek (aangeraden)"
+
+#: cp-settings.inc.php:201
+msgid "Direct"
+msgstr "Direct"
+
+#: cp-settings.inc.php:203
+msgid "Change the script load method if the form doesn't appear in the public website."
+msgstr ""
+"Verander de methode voor het laden van het script als het formulier niet op de openbare "
+"website verschijnt."
+
+#: cp-settings.inc.php:208
+msgid "Character encoding"
+msgstr "Tekencodering"
+
+#: cp-settings.inc.php:212
+msgid "Keep current charset (Recommended)"
+msgstr "Huidige tekenset behouden (aanbevolen)"
+
+#: cp-settings.inc.php:213
+msgid "try this first"
+msgstr "probeer dit eerst"
+
+#: cp-settings.inc.php:216
+msgid ""
+"Update the charset if you are getting problems displaying special/non-latin characters. "
+"After updated you need to edit the special characters again."
+msgstr ""
+"Update de karakterset als u problemen ondervindt bij het weergeven van speciale/niet-"
+"latijnse karakters. Na de update moet u de speciale tekens opnieuw bewerken."
+
+#: cp-settings.inc.php:228
+msgid ""
+"Use this area to add custom CSS styles. These styles will be keep safe even after "
+"updating the plugin."
+msgstr ""
+"Gebruik dit gebied om aangepaste CSS-stijlen toe te voegen. Deze stijlen zullen veilig "
+"blijven, zelfs na het bijwerken van de plug-in."
+
+#: cp-settings.inc.php:229
+msgid "For commonly used CSS styles please check the following FAQ section:"
+msgstr "Voor veelgebruikte CSS-stijlen raadpleegt u de volgende FAQ-sectie:"
+
+#: cp-settings.inc.php:245
+msgid "Sample Styles:"
+msgstr "Voorbeeld stijlen:"
+
+#: cp-settings.inc.php:251
+msgid "Make the calendar 100% width / responsive:"
+msgstr "Maak de kalender 100% breed / responsive:"
+
+#: cp-settings.inc.php:260
+msgid "Make the send button in a hover format:"
+msgstr "Maak de verzendknop in een hover formaat:"
+
+#: cp-settings.inc.php:272
+msgid "Change the color of all form field labels:"
+msgstr "Wijzig de kleur van alle formulierveldlabels:"
+
+#: cp-settings.inc.php:281
+msgid "Change color of fonts into all fields:"
+msgstr "Wijzig de kleur van lettertypen in alle velden:"
+
+#: cp-settings.inc.php:294
+msgid "Change the calendar header color:"
+msgstr "Wijzig de kleur van de agendakoptekst:"
+
+#: cp-settings.inc.php:303
+msgid "Other styles:"
+msgstr "Andere stijlen:"
+
+#: cp-settings.inc.php:306
+msgid "For other styles check the design section in the FAQ:"
+msgstr "Voor andere stijlen raadpleegt u het ontwerp gedeelte in de VEELGESTELDE VRAGEN:"
+
+#: cp-settings.inc.php:318
+msgid ""
+"Use this area to add custom scripts. These scripts will be keep safe even after "
+"updating the plugin."
+msgstr ""
+"Gebruik dit gebied om aangepaste scripts toe te voegen. Deze scripts worden veilig "
+"bewaard, zelfs na het bijwerken van de plug-in."
+
+#: cp_admin_int_edition.inc.php:24
+msgid "Customization"
+msgstr "Maatwerk"
+
+#: cp_admin_int_edition.inc.php:24
+msgid "Edit Page"
+msgstr "Bewerk pagina"
+
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+msgid "Please enter a valid email address."
+msgstr "Voer een geldig e-mailadres in."
+
+msgid "Please enter a valid captcha code."
+msgstr "Voer een geldige captchacode in."
+
+# RevTran=Please enter a valid date in this format (dd \\/mm \\/yyyy)
+msgid "Please enter a valid date with this format(mm/dd/yyyy)"
+msgstr "Voer een geldige datum in volgens dit formaat (mm/dd/jjjj)"
+
+msgid "Please enter a valid number."
+msgstr "Vul een geldig nummer in."
+
+# RevTran=Enter only numbers.
+msgid "Please enter only digits."
+msgstr "Voer enkel cijfers in."
+
+# RevTran=Please enter a value less than or equal to 0.
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Vul een waarde in, kleiner dan of gelijk aan {0}."
+
+# RevTran=Please enter a value greater than or equal to 0.
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Vul een waarde in, groter dan of gelijk aan {0}."
+
+msgid "Quantity"
+msgstr "Aantal"
+
+msgid "Please enter no more than {0} characters."
+msgstr "Voer niet meer dan {0} tekens in."
+
+msgid "Please enter at least {0} characters."
+msgstr "Vul ten minste {0} karakters in."
+
+msgid "No more slots available."
+msgstr "Er zijn geen periodes beschikbaar."
+
+msgid "Selected time is no longer available. Please select a different time."
+msgstr ""
+"De geselecteerde tijd is niet langer beschikbaar. Gelieve een andere tijd te kiezen."
+
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgid "Cancelled by customer"
+msgstr "Geannuleerd door gebruiker"
+
+msgid "Rejected"
+msgstr "Afgewezen"
+
+msgid "Attended"
+msgstr "Deelgenomen"
+
+msgid "Sunday"
+msgstr "Zondag"
+
+msgid "Monday"
+msgstr "Maandag"
+
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+msgid "Wednesday"
+msgstr "Woensdag"
+
+msgid "Thursday"
+msgstr "Donderdag"
+
+msgid "Friday"
+msgstr "Vrijdag"
+
+msgid "Saturday"
+msgstr "Zaterdag"
+
+msgid "Administrator options"
+msgstr "Opties voor beheerders"
+
+msgid "Send notification emails for this booking"
+msgstr "Stuur notificatie emails voor deze boeking"
+
+msgid "No appointments found with the selected filters"
+msgstr "Geen afspraken gevonden met de geselecteerde filters"
+
+msgid "Discount code"
+msgstr "Kortingscode"
+
+msgid "Please upload a valid file type"
+msgstr "Upload een geldig bestandstype"
+
+msgid "Every"
+msgstr "Elke"
+
+msgid "Weekly on weekdays"
+msgstr "Wekelijks op werkdagen"
+
+msgid "Weekly on Monday, Wednesday, Friday"
+msgstr "Wekelijks op maandag, woensdag, vrijdag"
+
+msgid "Weekly on Tuesday, Thursday"
+msgstr "Wekelijks op dinsdag, donderdag"
+
+msgid "weeks"
+msgstr "weken"
+
+msgid "on day"
+msgstr "op dag"
+
+msgid "on the"
+msgstr "op de"
+
+msgid "months"
+msgstr "maanden"
+
+msgid "on"
+msgstr "op"
+
+msgid "Annually"
+msgstr "Jaarlijks"
+
+msgid "years"
+msgstr "jaren"
+
+msgid "Once"
+msgstr "Eénmalig"
+
+msgid "until"
+msgstr "tot"
+
+msgid "and repeated on"
+msgstr "en herhaald op"
+
+msgid "Starts on"
+msgstr "Begint op"
+
+msgid "Ends after a number of occurrences"
+msgstr "Eindigt na een aantal keren"
+
+msgid "day of the week"
+msgstr "dag van de week"
+
+msgid "day of the month"
+msgstr "dag van de maand"
+
+msgid "Repeat by"
+msgstr "Herhaal door"
+
+msgid "Repeat on"
+msgstr "Herhaal op"
+
+msgid "Repeat every"
+msgstr "Herhaal iedere"
+
+msgid "Repeats"
+msgstr "Herhaalt"
+
+msgid "Every weekday (Monday to Friday)"
+msgstr "Elke werkdag (maandag tot vrijdag)"
+
+msgid "Every Monday, Wednesday, and Friday"
+msgstr "Elke maandag, woensdag en vrijdag"
+
+msgid "Every Tuesday, and Thursday"
+msgstr "Elke dinsdag en donderdag"
+
+msgid "Add available slots"
+msgstr "Beschikbare perioden toevoegen"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "Feb"
+msgstr "Feb"
+
+msgid "Mar"
+msgstr "Mrt"
+
+msgid "Apr"
+msgstr "Apr"
+
+msgid "May"
+msgstr "Mei"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "Aug"
+msgstr "Aug"
+
+msgid "Sep"
+msgstr "Sep"
+
+msgid "Oct"
+msgstr "Okt"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "Dec"
+msgstr "Dec"
+
+msgid "first"
+msgstr "eerste"
+
+msgid "second"
+msgstr "tweede"
+
+msgid "third"
+msgstr "derde"
+
+msgid "fourth"
+msgstr "vierde"
+
+msgid "last"
+msgstr "laatste"
+
+msgid "Repeat"
+msgstr "Herhalen"
+
+msgid "times"
+msgstr "keren"
+
+msgid "after"
+msgstr "na"
+
+msgid "Ends"
+msgstr "Eindigt op"
+
+msgid "occurrences"
+msgstr "gebeurtenissen"
+
+msgid "or"
+msgstr "of"
+
+msgid "SU"
+msgstr "ZO"
+
+msgid "MO"
+msgstr "MA"
+
+msgid "TU"
+msgstr "DI"
+
+msgid "WE"
+msgstr "WO"
+
+msgid "TH"
+msgstr "DO"
+
+msgid "FR"
+msgstr "VR"
+
+msgid "SA"
+msgstr "ZA"
+
+msgid "Online Demo"
+msgstr "Online demo"
+
+msgid "I Need Help"
+msgstr "Ik heb hulp nodig"
+
+msgid "Upgrade Plugin"
+msgstr "Plugin upgraden"
+
+msgid "Block Times"
+msgstr "Blokkeer deze tijden"
+
+msgid ""
+"This page is for <strong>blocking some of the available times</strong>. For services "
+"with multiple capacity be sure to select the \"quantity\" to be blocked."
+msgstr ""
+"Deze pagina is voor <strong>het blokkeren van enkele van de beschikbare tijden</"
+"strong>. Voor diensten met meerdere capaciteiten moet u de te blokkeren “hoeveelheid” "
+"selecteren."
+
+msgid ""
+"If you want to block complete dates please use instead the <a href=\"https://"
+"apphourbooking.dwbooster.com/customdownloads/invalid-dates.png\" "
+"target=\"_blank\">invalid dates feature</a>."
+msgstr ""
+"Als je volledige datums wil blokkeren, gebruikt je in plaats daarvan de functie <a "
+"href=\"https://apphourbooking.dwbooster.com/customdownloads/invalid-dates.png\" "
+"target=\"_blank\"> functie voor ongeldige datums </a>."
+
+msgid "Block selected dates"
+msgstr "Blokkeer de geselecteerde data"
+
+msgid "CSV Settings"
+msgstr "CSV instellingen"
+
+msgid "CSV Settings Area"
+msgstr "CSV instellingengebied"
+
+msgid "Exclude fields from \"Booking Orders\" CSV export"
+msgstr "Velden uitsluiten van CSV export \"Boekingsopdrachten\""
+
+msgid "Exclude fields from \"Schedule List View\" CSV export"
+msgstr "Velden uitsluiten van CSV export \"Schema lijstweergave\""
+
+msgid "Update Changes"
+msgstr "Update wijzigingen"
+
+msgid ""
+"Enter field names comma separated, example: <b>final_price,referrer,fieldname1,"
+"fieldname2<b>"
+msgstr ""
+"Geef hier de veldnamen gescheiden door een komma, bijvoorbeeld: <b>definitieve_prijs,"
+"verwijzing,veldnaam1,veldnaam2<b>"
+
+msgid "Enter field names comma separated, example: <b>paid,cancelled<b>"
+msgstr ""
+"Geef hier de veldnamen gescheiden door een komma, bijvoorbeeld: <b>betaald,"
+"geannuleerd<b>"
+
+msgid "Update Report Settings"
+msgstr "Update rapportinstellingen"
+
+msgid "Other parameters"
+msgstr "Andere parameters"
+
+msgid "Exclude calendar from schedule contents"
+msgstr "Agenda uitsluiten van geplande inhoud"
+
+msgid "Include admin blocked times?"
+msgstr "Inclusief admin geblokkeerde tijden?"
+
+msgid "ADVANCED SETTINGS"
+msgstr "GEAVANCEERDE INSTELLINGEN"
+
+msgid "CONTENTS FOR CALENDAR DISPLAYED PUBLIC WEBSITE"
+msgstr "INHOUD VAN DE GETOONDE KALENDER OP PUBLIEKE SITE"
+
+msgid "Event Content"
+msgstr "Activiteit inhoud"
+
+msgid "Event title"
+msgstr "Activiteit title"
+
+msgid "CONTENTS FOR CALENDAR DISPLAYED ADMIN AREA"
+msgstr "INHOUD VOOR KALENDER WEERGEGEVEN BEHEERGEBIED"
+
+msgid "Schedule Calendar Contents"
+msgstr "Planning kalender inhouden"
+
+msgid "Time"
+msgstr "Tijd"
+
+msgid "Appointment Hour Booking: Upcoming appointments"
+msgstr "Appointment Hour Booking: Toekomstige afspraken"
+
+msgid "Qty"
+msgstr "Aant"
+
+msgid "\"Cost\" label"
+msgstr "\"Kosten\" label"
+
+msgid "\"Cancel\" link label"
+msgstr "\"Annuleren\" link label"
+
+msgid "\"Quantity\" field label"
+msgstr "\"Aantal\" veld label"
+
+msgid "Other Texts"
+msgstr "Overige teksten"
+
+msgid "Hide the service drop-down:"
+msgstr "Verberg de keuzelijst voor diensten:"
+
+msgid "The following Add Ons are included in the commercial versions of the plugin:"
+msgstr "De volgende uitbreidingen zijn inbegrepen in de commerciële versie van de plugin:"
+
+msgid "Maximum items listed"
+msgstr "Maximaal aantal items"
+
+msgid "Save Changes and Continue Editing"
+msgstr "Sla wijzigingen op en ga verder met bewerken"
+
+msgid "Change it if you get the CSV columns mixed"
+msgstr "Aanpassen als de CSV kolommen door elkaar worden gezet"
+
+msgid "semicolon: \";\""
+msgstr "puntkomma: \";\""
+
+msgid "comma: \",\""
+msgstr "komma: \",\""
+
+msgid "Field separator for CSV files?"
+msgstr "Scheidingsteken voor CSV bestanden?"
+
+msgid ""
+"Set to \"No\" if special characters appear with question marks \"?\" in the CSV file."
+msgstr ""
+"Zet op \"Nee\" als speciale karakters als \"?\" getoond worden in het CSV bestand."
+
+msgid "Auto-fix character for CSV files?"
+msgstr "Speciale karakters automatisch aanpassen in CSV bestanden?"
+
+msgid "BLOCKED BY ADMIN"
+msgstr "GEBLOKKEERD DOOR BEHEER"
+
+msgid "No upcoming appointments found"
+msgstr "Geen aankomende afspraken gevonden"
+
+msgid "upcoming appointments:"
+msgstr "aanstaande afspraken:"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid ""
+"The add-on adds a widget to display a list of upcoming appointments in the dashboard "
+"welcome page."
+msgstr ""
+"De add-on voegt een widget toe om een lijst met komende afspraken weer te geven op de "
+"welkom-pagina van het dashboard."
+
+msgid "Include appointment end-time in the confirmation emails?"
+msgstr "Eindtijd afspraak in de bevestigingsmail opnemen?"
+
+msgid "Allow selected users access also to the calendar settings?"
+msgstr "Geselecteerde gebruikers ook toegang geven tot de kalenderinstellingen?"
+
+msgid "Are you sure you want to cancel this booking?"
+msgstr "Weet u zeker dat u deze boeking wilt annuleren?"
+
+msgid "Confirm"
+msgstr "Bevestigen"
+
+msgid "Toggle Payment"
+msgstr ""
+
+msgid "Update Status"
+msgstr ""
+
+msgid "Submitted by"
+msgstr ""
+
+msgid "Daily Stats(next 30 days)"
+msgstr ""
+
+msgid "Monthly Stats (next 12 months)"
+msgstr ""
+
+msgid "Yearly Stats"
+msgstr ""
+
+msgid "Weekly Stats (next 12 weeks)"
+msgstr ""
+
+msgid "Booked times stats (appointment date)"
+msgstr ""
+
+msgid "Incoming - Weekly Stats (lastest 12 weeks)"
+msgstr ""
+
+msgid "Incoming - Monthly Stats (lastest 12 months)"
+msgstr ""
+
+msgid "Incoming - Daily Stats (lastest 30 days)"
+msgstr ""
+
+msgid "Incoming- Yearly Stats"
+msgstr ""
+
+msgid "Submission time stats (date in which the appointment request was received)"
+msgstr ""
+
+msgid "appointments"
+msgstr ""
+
+msgid "Single - Block Existing Time-slot"
+msgstr ""
+
+msgid "Multiple - Block time range"
+msgstr ""
+
+msgid "To un-block times, delete the \"blocked\" entry from the"
+msgstr ""
+
+msgid "booking orders list"
+msgstr ""
+
+msgid "You can publish this calendar the public website by using the following shortcode:"
+msgstr ""
+
+msgid "possible default views are:"
+msgstr ""
+
+msgid "Customize Contents of this Calendar"
+msgstr ""

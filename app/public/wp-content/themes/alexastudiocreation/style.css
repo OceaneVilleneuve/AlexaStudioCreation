@@ -20,8 +20,6 @@ html, body {
   min-height: 100vh;
 }
 
-
-
 .parallax-container {
   background-size: cover;
   background-attachment: fixed; /* assure un effet de parallaxe */
@@ -254,7 +252,7 @@ html, body {
 }
 
 .front-page-content {
-  margin: 3em 1.5em;
+  margin:3em 1.5em 0em;
 }
 
 .custom-button-for-home {
@@ -321,7 +319,7 @@ html, body {
   justify-content: center;
   font-family: 'Portmanteau';
   font-size: 25px;
-  margin-top: 2em;
+  padding-top: 1em;
 }
 
 .post-page-container {
@@ -443,9 +441,7 @@ html, body {
   }
 }
 
-.prestation-custom-title {
-  margin-bottom: 2em;
-}
+
 .wp-block-quote {
   text-align: center;
   margin-bottom: 4em;
@@ -615,5 +611,65 @@ html, body {
     font-family: 'Galada', cursive;
     font-size: 14px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}
+
+
+/* CONTACT PAGE */
+
+.contact-section {
+  height: 100vh !important;
+}
+.container-contact {
+  p{
+  text-align: center;
+  font-family: 'Nixie One';
+  font-size: 18px !important;
+  font-weight: bolder;
+  padding: 3em 0em;
+  margin-bottom: 0em !important;
+  }
+  h1 {
+    margin-bottom: 0em !important;
+    display: flex;
+    justify-content: center;
+    font-family: 'Portmanteau';
+    font-size: 25px;
+    padding-top: 1em;
+  }
+}
+
+.bpa-frontend-main-container {
+  padding: 0em 4em !important;
+}
+
+/* .bpa-front-tabs.--bpa-top .bpa-front-tab-menu {
+  margin-bottom: 0px !important;
+  padding-bottom: 24px !important;
+}
+
+.bpa-front-module--booking-summary .bpa-front-module--bs-head h4, .bpa-front-module-heading{
+  margin-bottom: 0px !important;
+  padding-bottom: 12px;
+} */
+
+@media only screen and (max-width: 767px) {
+  .container-contact {
+    p{
+    text-align: center;
+    font-family: 'Nixie One';
+    font-size: 16px !important;
+    font-weight: bolder;
+    padding: 3em 1.5em;
+    margin-bottom: 0em !important;
+    }
+    h1 {
+      margin-bottom: 0em !important;
+      font-size: 20px;
+
+    }
+  }
+  .bpa-frontend-main-container {
+    padding: 0em 1em !important;
   }
 }
