@@ -344,9 +344,8 @@ html, body {
 
   p {
     font-family: 'Nixie One';
-    font-size: 15px !important;
+    font-size: 18px !important;
     width: 66% !important;
-    font-weight: bolder;
     padding-right: 5em;
   }
 }
@@ -426,7 +425,6 @@ html, body {
     width: 400px;
     font-family: 'Nixie One';
     font-size: 16px !important;
-    font-weight: bolder;
     z-index: 2;
   }
   & h2 {
@@ -502,7 +500,6 @@ html, body {
       height: 50px;
       font-family: 'Nixie One';
       font-size: 16px !important;
-      font-weight: bolder;
       position: absolute; /* Positionnement absolu */
       top: 0;
       left: 0;
@@ -625,7 +622,6 @@ html, body {
   text-align: center;
   font-family: 'Nixie One';
   font-size: 18px !important;
-  font-weight: bolder;
   padding: 3em 0em;
   margin-bottom: 0em !important;
   }
@@ -659,7 +655,6 @@ html, body {
     text-align: center;
     font-family: 'Nixie One';
     font-size: 16px !important;
-    font-weight: bolder;
     padding: 3em 1.5em;
     margin-bottom: 0em !important;
     }
@@ -672,4 +667,11 @@ html, body {
   .bpa-frontend-main-container {
     padding: 0em 1em !important;
   }
+}
+
+
+/* MERCI PAGE */
+
+.merci-content {
+  padding: 0em 5em !important;
 }
