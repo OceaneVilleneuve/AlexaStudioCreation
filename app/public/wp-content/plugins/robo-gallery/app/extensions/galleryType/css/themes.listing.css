@@ -1,0 +1,20 @@
+/* 
+*      Robo Gallery     
+*      Version: 3.2.14 - 40722
+*      By Robosoft
+*
+*      Contact: https://robogallery.co/ 
+*      Created: 2021
+*      Licensed under the GPLv2 license - http://opensource.org/licenses/gpl-2.0.php
+
+ */
+
+.manage-column.column-RoboGalleryThemeColumnType,
+.RoboGalleryThemeColumnType.column-RoboGalleryThemeColumnType{
+	 width: 100px; 
+	/* text-align: right; */
+}
+
+@media screen and ( max-width: 782px ) {
+
+}

@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <main id="main" class="site-main mt-5" role="main">
-  <span class="available-tag">Disponible</span>
+  <span class="available-tag-photo-single-page">Disponible</span>
   <div class="">
       <?php
       if (have_posts()) :

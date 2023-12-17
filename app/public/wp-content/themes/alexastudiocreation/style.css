@@ -333,7 +333,41 @@ html, body {
   width: 100%;
 }
 
+/* PHOTO PAGE */
 
+.grid-item {
+  padding: 3em 3em;
+}
+
+.available-tag-photo-single-page {
+  position: absolute;
+  z-index: 2;
+  right: 13px;
+  top: 26%;
+  transform: translateX(-50%);
+  background-color: #E0D0F4;
+  padding: 41px 13px;
+  border-radius: 100%;
+  font-family: 'Galada', cursive;
+  font-size: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .available-tag-photo-single-page {
+  position: absolute;
+  z-index: 2;
+  right: -18px;
+  top: 23%;
+  transform: translateX(-50%);
+  background-color: #E0D0F4;
+  padding: 28px 12px;
+  border-radius: 100%;
+  font-family: 'Galada', cursive;
+  font-size: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}
 /* À PROPOS DE MOI PAGE */
 
 .about-me-content {
@@ -574,11 +608,15 @@ html, body {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.display-video figure {
+  padding: 1em 0em 2em;
+}
+
 .available-tag-video-pages{
   position: absolute;
   z-index: 2;
-  right: 116px;
-  top: 36%;
+  right: 11%;
+  top: 23%;
   transform: translateX(-50%);
   background-color: #E0D0F4;
   padding: 41px 13px;
@@ -634,7 +672,7 @@ html, body {
   }
   .is-disabled {
     text-decoration: line-through !important;
-  }
+    }
 }
 
 .bpa-frontend-main-container {

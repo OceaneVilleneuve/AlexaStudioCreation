@@ -1,0 +1,10 @@
+{
+    "name": "robo/block-robo-gallery",
+    "title": "Image Gallery by Robo",
+    "icon": "format-gallery",
+    "category": "widgets",
+    "editorScript": "file:./includes/extensions/block/dist/blocks.build.js",
+    "description": "Photo gallery block for a simple setup of the Image Gallery",
+    "keywords": ["images", "photos", "gallery"],
+    "textdomain": "robo-gallery"
+}
