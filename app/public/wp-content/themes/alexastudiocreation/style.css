@@ -259,7 +259,13 @@ html, body {
 }
 
 .front-page-content {
-  margin:3em 1.5em 0em;
+  padding:3em 3em;
+}
+
+@media only screen and (max-width: 767px) {
+  .front-page-content {
+    padding:3em 1.5em;
+  }
 }
 
 .custom-button-for-home {

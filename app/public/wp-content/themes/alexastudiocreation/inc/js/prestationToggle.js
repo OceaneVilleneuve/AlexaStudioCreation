@@ -31,11 +31,33 @@
 //   });
 // });
 
+
+
 jQuery(document).ready(function ($) {
-  $(".entry-content-prestation  .wp-block-media-text").on('click', function (event) {
+  var previousId = null
+  $(".entry-content-prestation .is-stacked-on-mobile").on('click', function (event) {
     var container = $(event.currentTarget);
-    if(event.currentTarget.classList.contains('flipped-card')) {
-      $(".entry-content-prestation  .wp-block-media-text").removeClass('flipped-card')
+    var currentId = container.attr('id');
+
+    console.log(currentId)
+
+    // if(event.currentTarget.classList.contains('flipped-card')) {
+    //   $(".entry-content-prestation  .is-stacked-on-mobile").removeClass('flipped-card')
+    // }
+    // else {
+    //   event.currentTarget.classList.add('flipped-card');
+    // }
+
+     // Comparer l'ID actuel avec l'ID précédent
+      if ((currentId !== previousId) || (event.currentTarget.classList.contains('flipped-card'))) {
+      // Supprimer la classe 'flipped-card' de tous les éléments sauf celui actuellement cliqué
+      $(".entry-content-prestation .wp-block-media-text").not(container).removeClass('flipped-card');
+
+      // Ajouter ou supprimer la classe 'flipped-card' de l'élément actuellement cliqué
+      container.toggleClass('flipped-card');
+
+      // Mettre à jour l'ID précédent
+      previousId = currentId;
     }
     else {
       event.currentTarget.classList.add('flipped-card');
