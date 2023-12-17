@@ -16,6 +16,13 @@ button {
 
 /* BACKGROUND */
 
+.parallax-container {
+  min-height: 100vh;
+}
+.site {
+  min-height: 100vh;
+}
+
 html, body {
   min-height: 100vh;
 }
@@ -624,6 +631,9 @@ html, body {
     font-family: 'Portmanteau';
     font-size: 25px;
     padding-top: 1em;
+  }
+  .is-disabled {
+    text-decoration: line-through !important;
   }
 }
 
