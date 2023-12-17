@@ -40,14 +40,6 @@ jQuery(document).ready(function ($) {
     var currentId = container.attr('id');
 
     console.log(currentId)
-
-    // if(event.currentTarget.classList.contains('flipped-card')) {
-    //   $(".entry-content-prestation  .is-stacked-on-mobile").removeClass('flipped-card')
-    // }
-    // else {
-    //   event.currentTarget.classList.add('flipped-card');
-    // }
-
      // Comparer l'ID actuel avec l'ID précédent
       if ((currentId !== previousId) || (event.currentTarget.classList.contains('flipped-card'))) {
       // Supprimer la classe 'flipped-card' de tous les éléments sauf celui actuellement cliqué
