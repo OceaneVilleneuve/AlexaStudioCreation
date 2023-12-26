@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-  console.log('Parallax script loaded.');
+  // console.log('Parallax script loaded.');
 
   function initParallax() {
     const container = $('.parallax-container');
@@ -16,5 +16,5 @@ jQuery(document).ready(function($) {
   }
 
   initParallax();
-  console.log('Parallax script finished.');
+  // console.log('Parallax script finished.');
 });

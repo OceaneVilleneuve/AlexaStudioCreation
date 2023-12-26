@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
       if (clickCount > 0 && currentClickedIndex !== lastClickedIndex) {
         clearTimeout(timeout);
         clickCount = 0;
-        console.log('Compteur réinitialisé en raison d\'un autre clic pendant le délai.');
+        // console.log('Compteur réinitialisé en raison d\'un autre clic pendant le délai.');
       }
 
       lastClickedIndex = currentClickedIndex; // Met à jour l'index du dernier clic
@@ -36,10 +36,10 @@ jQuery(document).ready(function($) {
       clickCount++;
 
       if (clickCount === 1) {
-        console.log('Premier clic');
+        // console.log('Premier clic');
         // Attend le délai spécifié
         timeout = setTimeout(function() {
-          console.log('Compteur réinitialisé.');
+          // console.log('Compteur réinitialisé.');
           clickCount = 0;
         }, delay);
       }
@@ -48,7 +48,7 @@ jQuery(document).ready(function($) {
       if (clickCount === 2) {
         var thumbnailLink = $(this).attr('href');
         if (thumbnailLink) {
-          console.log('Ouverture du lien après le délai...');
+          // console.log('Ouverture du lien après le délai...');
           window.location.href = thumbnailLink;
         }
       }

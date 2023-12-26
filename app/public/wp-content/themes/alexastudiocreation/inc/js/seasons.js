@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-  console.log('Seasons script loaded.');
+  // console.log('Seasons script loaded.');
 
   function initSeasons() {
     const container = $('.custom-button-for-home');
