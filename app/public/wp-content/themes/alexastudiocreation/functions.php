@@ -58,6 +58,10 @@ function add_id_for_prestations() {
   wp_enqueue_script('id-config', get_stylesheet_directory_uri() . '/inc/js/idPrestations.js', array('jquery'), null, true);
 }
 
+function add_seasons_for_custom_front_page_button() {
+  wp_enqueue_script('seasons-config', get_stylesheet_directory_uri() . '/inc/js/seasons.js', array('jquery'), null, true);
+}
+
 
 
 add_action('wp_enqueue_scripts', 'add_parallax_script');
@@ -67,6 +71,7 @@ add_action('wp_enqueue_scripts', 'add_toogle_script_for_menu');
 add_action('wp_enqueue_scripts', 'add_dynamic_cards_for_prestations');
 add_action('wp_enqueue_scripts', 'add_toggle_cards_for_prestations');
 add_action('wp_enqueue_scripts', 'add_id_for_prestations');
+add_action('wp_enqueue_scripts', 'add_seasons_for_custom_front_page_button');
 
 
 // Theme personnalisé pour les posts

@@ -177,6 +177,8 @@ html, body {
   font-family: 'Galada', cursive;
   font-size: 24px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-decoration: none;
+  color: black;
 }
 
 @media only screen and (max-width: 767px) {
@@ -208,6 +210,8 @@ html, body {
     font-family: 'Galada', cursive;
     font-size: 14px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-decoration: none;
+    color: black;
   }
 
 }
@@ -256,6 +260,9 @@ html, body {
   bottom: 50%; /* Ajustez cette valeur selon votre préférence pour le positionnement vertical */
   left: 50%; /* Place le bouton au centre horizontal du conteneur */
   transform: translateX(-50%); /* Centre précisément le bouton */
+  background-color: #E0D0F4 !important;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .front-page-content {
@@ -357,6 +364,8 @@ html, body {
   font-family: 'Galada', cursive;
   font-size: 24px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-decoration: none;
+  color: black;
 }
 
 @media only screen and (max-width: 767px) {
@@ -372,6 +381,8 @@ html, body {
   font-family: 'Galada', cursive;
   font-size: 14px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-decoration: none;
+  color: black;
   }
 }
 /* À PROPOS DE MOI PAGE */
@@ -629,7 +640,9 @@ html, body {
   border-radius: 100%;
   font-family: 'Galada', cursive;
   font-size: 24px;
-      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-decoration: none;
+  color: black;
 }
 
 @media only screen and (max-width: 767px) {
@@ -651,6 +664,8 @@ html, body {
     font-family: 'Galada', cursive;
     font-size: 14px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-decoration: none;
+    color: black;
   }
 }
 

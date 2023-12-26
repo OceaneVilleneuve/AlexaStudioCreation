@@ -15,7 +15,7 @@ $query = new WP_Query( $args );
 ?>
 
 <main id="main" class="site-main">
-  <span class="available-tag">Disponible</span>
+  <a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact'))); ?>" class="available-tag">Disponible</a>
     <div class="front-page-content">
         <div class="grid">
             <?php

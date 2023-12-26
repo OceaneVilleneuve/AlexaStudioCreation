@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <main id="main" class="site-main mt-5" role="main">
-  <span class="available-tag-photo-single-page">Disponible</span>
+  <a href="<?php echo esc_url(get_permalink(get_page_by_title('Contact'))); ?>"class="available-tag-photo-single-page">Disponible</a>
   <div class="">
       <?php
       if (have_posts()) :
