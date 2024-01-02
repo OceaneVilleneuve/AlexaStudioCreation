@@ -17,7 +17,7 @@ button {
 /* BACKGROUND */
 
 .parallax-container {
-  min-height: 100vh;
+  min-height: 220vh;
 }
 .site {
   min-height: 100vh;
@@ -709,15 +709,6 @@ html, body {
   padding: 0em 4em !important;
 }
 
-/* .bpa-front-tabs.--bpa-top .bpa-front-tab-menu {
-  margin-bottom: 0px !important;
-  padding-bottom: 24px !important;
-}
-
-.bpa-front-module--booking-summary .bpa-front-module--bs-head h4, .bpa-front-module-heading{
-  margin-bottom: 0px !important;
-  padding-bottom: 12px;
-} */
 
 @media only screen and (max-width: 767px) {
   .container-contact {

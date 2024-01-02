@@ -196,8 +196,14 @@ if (! class_exists('bookingpress_dashboard') ) {
                     if( defined('DISABLE_WP_CRON') && true == DISABLE_WP_CRON ){ // check if WordPress cron is disabled. if disabled then send the emails directly without scheduling them.
                         $appointment_status_type = '';
                         if ($appointment_new_status == '1' ) {
-                            $payment_new_status = '1';
-                            $wpdb->update($tbl_bookingpress_payment_logs, array( 'bookingpress_payment_status' => $payment_new_status ), array( 'bookingpress_appointment_booking_ref' => $appointment_update_id ));
+
+                            $booked_appointment_paymanet_details = $wpdb->get_row($wpdb->prepare('SELECT bookingpress_payment_gateway FROM ' . $tbl_bookingpress_payment_logs . ' WHERE bookingpress_appointment_booking_ref = %d', $appointment_update_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared -- Reason: $tbl_bookingpress_payment_logs is table name defined globally. False Positive alarm
+                            if(!empty($booked_appointment_paymanet_details)){                                
+                                if($booked_appointment_paymanet_details['bookingpress_payment_gateway'] != 'on-site'){                            
+                                    $payment_new_status = '1';
+                                    $wpdb->update($tbl_bookingpress_payment_logs, array( 'bookingpress_payment_status' => $payment_new_status ), array( 'bookingpress_appointment_booking_ref' => $appointment_update_id ));
+                                }
+                            }        
                             $appointment_status_type = 'Appointment Approved';
                         } else if ($appointment_new_status == '2' && !empty( $appointment_update_id ) ) {
                             $appointment_status_type = 'Appointment Pending';
@@ -213,9 +219,14 @@ if (! class_exists('bookingpress_dashboard') ) {
                         }
                         
                         if ($appointment_new_status == '1' ) {
-                            $payment_new_status = '1';
-                            $wpdb->update($tbl_bookingpress_payment_logs, array( 'bookingpress_payment_status' => $payment_new_status ), array( 'bookingpress_appointment_booking_ref' => $appointment_update_id ));
-    
+                           
+                            $booked_appointment_paymanet_details = $wpdb->get_row($wpdb->prepare('SELECT bookingpress_payment_gateway FROM ' . $tbl_bookingpress_payment_logs . ' WHERE bookingpress_appointment_booking_ref = %d', $appointment_update_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared -- Reason: $tbl_bookingpress_payment_logs is table name defined globally. False Positive alarm
+                            if(!empty($booked_appointment_paymanet_details)){                                
+                                if($booked_appointment_paymanet_details['bookingpress_payment_gateway'] != 'on-site'){
+                                    $payment_new_status = '1';                            
+                                    $wpdb->update($tbl_bookingpress_payment_logs, array( 'bookingpress_payment_status' => $payment_new_status ), array( 'bookingpress_appointment_booking_ref' => $appointment_update_id ));        
+                                }
+                            }    			     	
                             if( wp_next_scheduled ( 'bookingpress_send_email_for_change_approved_status', array( 'Appointment Approved', $appointment_update_id, $customer_email ) ) ){
                                 wp_clear_scheduled_hook('bookingpress_send_email_for_change_approved_status', array( 'Appointment Approved', $appointment_update_id, $customer_email ) );
                             }
@@ -380,7 +391,7 @@ if (! class_exists('bookingpress_dashboard') ) {
         function bookingpress_dashboard_upcoming_appointments_func()
         {
             //global $wpdb, $tbl_bookingpress_appointment_bookings, $tbl_bookingpress_payment_logs, $BookingPress, $tbl_bookingpress_customers, $bookingpress_global_options;
-            global $BookingPress,$wpdb, $tbl_bookingpress_services,$tbl_bookingpress_appointment_bookings,$tbl_bookingpress_payment_logs,$tbl_bookingpress_customers,$bookingpress_global_options,$tbl_bookingpress_form_fields;
+            global $BookingPress,$wpdb, $tbl_bookingpress_services,$tbl_bookingpress_appointment_bookings,$tbl_bookingpress_payment_logs,$tbl_bookingpress_customers,$bookingpress_global_options,$tbl_bookingpress_form_fields, $bookingpress_appointment;
 
             $return_data = array(
                 'upcoming_appointments' => array(),
@@ -442,13 +453,18 @@ if (! class_exists('bookingpress_dashboard') ) {
 
                     $service_duration             = esc_html($get_appointment['bookingpress_service_duration_val']);
                     $service_duration_unit        = esc_html($get_appointment['bookingpress_service_duration_unit']);
-                    if ($service_duration_unit == 'm' ) {
-                        $service_duration .= ' ' . esc_html__('Mins', 'bookingpress-appointment-booking');
-                    } else if($service_duration_unit == 'd') {
-                        $service_duration .= ' ' . esc_html__('Days', 'bookingpress-appointment-booking');
+
+                    $bookingpress_appointment_start_datetime = $appointment_date_time;
+                    $bookingpress_appointment_end_datetime = $get_appointment['bookingpress_appointment_date'].' '. $get_appointment['bookingpress_appointment_end_time'];
+                    if($service_duration_unit != 'd') {
+                        $service_duration = $bookingpress_appointment->bookingpress_get_appointment_duration($bookingpress_appointment_start_datetime, $bookingpress_appointment_end_datetime);
                     } else {
-                        $service_duration .= ' ' . esc_html__('Hours', 'bookingpress-appointment-booking');
-                    }
+                        if( 1 == $service_duration ){
+                            $service_duration .= ' ' . esc_html__('Day', 'bookingpress-appointment-booking');
+                        } else {   
+                            $service_duration .= ' ' . esc_html__('Days', 'bookingpress-appointment-booking');
+                        }                        
+                    }                    
                     $appointment['appointment_duration'] = $service_duration;
                     $currency_name                       = $get_appointment['bookingpress_service_currency'];
                     $currency_symbol                     = $BookingPress->bookingpress_get_currency_symbol($currency_name);

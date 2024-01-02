@@ -585,7 +585,12 @@ if (! class_exists('bookingpress_calendar') ) {
                             $payment_new_status = '';
                             if ($bookingpress_appointment_status == '1' ) {
                                 $payment_new_status = '1';
-                                $wpdb->update($tbl_bookingpress_payment_logs, array( 'bookingpress_payment_status' => $payment_new_status ), array( 'bookingpress_appointment_booking_ref' => $bookingpress_update_id ));
+                                $booked_appointment_paymanet_details = $wpdb->get_row($wpdb->prepare('SELECT bookingpress_payment_gateway FROM ' . $tbl_bookingpress_payment_logs . ' WHERE bookingpress_appointment_booking_ref = %d', $bookingpress_update_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared -- Reason: $tbl_bookingpress_payment_logs is table name defined globally. False Positive alarm
+                                if(!empty($booked_appointment_paymanet_details)){                                       
+                                    if($booked_appointment_paymanet_details['bookingpress_payment_gateway'] != 'on-site'){                                
+                                        $wpdb->update($tbl_bookingpress_payment_logs, array( 'bookingpress_payment_status' => $payment_new_status ), array( 'bookingpress_appointment_booking_ref' => $bookingpress_update_id ));
+                                    }
+                                }
                             }
                             
                             do_action('bookingpress_after_update_appointment', $bookingpress_update_id);

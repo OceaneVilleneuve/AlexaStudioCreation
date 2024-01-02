@@ -1890,7 +1890,7 @@ if (! class_exists('BookingPress') ) {
         {
             global $bookingpress_version;
             $bookingpress_old_version = get_option('bookingpress_version', true);
-            if (version_compare($bookingpress_old_version, '1.0.79', '<') ) {
+            if (version_compare($bookingpress_old_version, '1.0.80', '<') ) {
                 $bookingpress_load_upgrade_file = BOOKINGPRESS_VIEWS_DIR . '/upgrade_latest_data.php';
                 include $bookingpress_load_upgrade_file;
                 $this->bookingpress_send_anonymous_data_cron();
@@ -3398,6 +3398,20 @@ if (! class_exists('BookingPress') ) {
                             
                                 return parents;
                             },
+                            bookingpress_remove_date_range_picker_focus(event){                               
+                                <?php 
+                                    if(wp_is_mobile()){
+                                ?>
+                                const datepickerinput = document.querySelectorAll(".el-range-input");
+                                if(typeof datepickerinput != "undefined"){
+                                    datepickerinput.forEach((dateItem) => {
+                                        dateItem.blur();
+                                    });                    
+                                }
+                                <?php 
+                                    }
+                                ?>
+                            },                             
                             <?php do_action( 'bookingpress_admin_panel_vue_methods'); ?>
                             <?php do_action('bookingpress_' . $requested_module . '_dynamic_vue_methods'); ?>
                         },

@@ -1493,7 +1493,7 @@ if( version_compare( $bookingpress_old_version, '1.0.76', '<' ) ){
     update_option( 'bpa_is_displayed_bf_sale_popup', false );
 }
 
-$bookingpress_new_version = '1.0.79';
+$bookingpress_new_version = '1.0.80';
 update_option('bookingpress_new_version_installed', 1);
 update_option('bookingpress_version', $bookingpress_new_version);
 update_option('bookingpress_updated_date_' . $bookingpress_new_version, current_time('mysql'));

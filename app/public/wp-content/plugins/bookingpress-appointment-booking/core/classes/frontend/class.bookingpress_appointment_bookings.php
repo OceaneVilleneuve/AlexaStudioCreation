@@ -21,6 +21,8 @@ if (! class_exists('bookingpress_appointment_bookings')  && class_exists('Bookin
         var $bookingpress_delete_customer_profile;
         var $bookingpress_calendar_list;
 
+        var $bookingpress_all_service_data;
+
         function __construct()
         {
             global $BookingPress;
@@ -37,6 +39,8 @@ if (! class_exists('bookingpress_appointment_bookings')  && class_exists('Bookin
             $this->bookingpress_mybooking_customer_username = '';
             $this->bookingpress_mybooking_customer_email    = '';
             $this->bookingpress_mybooking_wpuser_id         = 0;
+
+            $this->bookingpress_all_service_data           = array();
 
             add_filter('bookingpress_front_booking_dynamic_data_fields', array( $this, 'bookingpress_booking_dynamic_data_fields_func' ), 10, 5);
 
@@ -3417,9 +3421,9 @@ if (! class_exists('bookingpress_appointment_bookings')  && class_exists('Bookin
             
             $service_timings = apply_filters( 'bookingpress_check_available_timings_with_staffmember', $service_timings, $selected_service_id, $selected_date, $total_booked_appiontments );
 
-            $service_timings = array_values( $service_timings );
-
             $service_timings = apply_filters( 'bookingpress_buffer_calculations', $service_timings, $total_booked_appiontments, $selected_service_id, $shared_quantity, $booked_timing_keys );
+
+            $service_timings = array_values( $service_timings );
 
             if( true == $check_for_whole_days ){
                 $is_available = false;
@@ -3786,6 +3790,7 @@ if (! class_exists('bookingpress_appointment_bookings')  && class_exists('Bookin
             }
 
             $bpa_all_services = $BookingPress->bookingpress_retrieve_all_services( $service, $selected_service, $Bookingpress_category );
+            $this->bookingpress_all_service_data = $bpa_all_services;
 
             $bookingpress_is_display_empty_view = apply_filters( 'bpa_is_display_emtpy_view', false, $bpa_all_services );
 
@@ -4817,6 +4822,7 @@ if (! class_exists('bookingpress_appointment_bookings')  && class_exists('Bookin
             
 
             $bookingpress_related_category_service = array();
+            $bookingpress_all_service_data = (isset($bookingpress_front_vue_data_fields['bookingpress_all_services_data']))?$bookingpress_front_vue_data_fields['bookingpress_all_services_data']:array();
             foreach ( $all_service_data as $service_key => $service_val ) {
                 $temp_service_data[ $service_key ] = $all_service_data[ $service_key ];
 
@@ -4826,9 +4832,16 @@ if (! class_exists('bookingpress_appointment_bookings')  && class_exists('Bookin
                 $temp_service_data[ $service_key ]['bookingpress_service_price']     = $BookingPress->bookingpress_price_formatter_with_currency_symbol($service_val['bookingpress_service_price']);
                 $temp_service_data[ $service_key ]['bookingpress_service_name'] = stripslashes($service_val['bookingpress_service_name']);
                 
-                $service_id                              = $service_val['bookingpress_service_id'];
-                $service_meta_details                    = $wpdb->get_row( $wpdb->prepare( "SELECT * FROM {$tbl_bookingpress_servicesmeta} WHERE bookingpress_service_id = %d AND bookingpress_servicemeta_name = 'service_image_details'", $service_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Reason: $tbl_bookingpress_servicesmeta is table name defined globally. False Positive alarm
-                $service_img_details                     = ! empty($service_meta_details['bookingpress_servicemeta_value']) ? maybe_unserialize($service_meta_details['bookingpress_servicemeta_value']) : array();
+                $service_id                              = $service_val['bookingpress_service_id'];                
+                $service_img_details                     = '';
+                if($service_id && !empty($bookingpress_all_service_data) && isset($bookingpress_all_service_data[$service_id]['services_meta'])){                    
+                    $service_img_details  = (isset($bookingpress_all_service_data[$service_id]['services_meta']['service_image_details']))?$bookingpress_all_service_data[$service_id]['services_meta']['service_image_details']:array();
+                    $service_img_details = (!empty($service_img_details))?$service_img_details:array();
+                }else{                                        
+                    $service_meta_details                    = $wpdb->get_row( $wpdb->prepare( "SELECT * FROM {$tbl_bookingpress_servicesmeta} WHERE bookingpress_service_id = %d AND bookingpress_servicemeta_name = 'service_image_details'", $service_id), ARRAY_A); // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Reason: $tbl_bookingpress_servicesmeta is table name defined globally. False Positive alarm                    
+                    $service_img_details                     = ! empty($service_meta_details['bookingpress_servicemeta_value']) ? maybe_unserialize($service_meta_details['bookingpress_servicemeta_value']) : array();                        
+                }
+
                 $bpa_user_placeholder = !empty( $service_img_details[0]['url'] ) ? false : true;
                 $temp_service_data[ $service_key ]['img_url'] = ! empty($service_img_details[0]['url']) ? $service_img_details[0]['url'] : BOOKINGPRESS_URL . '/images/placeholder-img.jpg';
                 $temp_service_data[ $service_key ]['use_placeholder'] = $bpa_user_placeholder;

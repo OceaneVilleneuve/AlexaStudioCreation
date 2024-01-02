@@ -5,7 +5,7 @@ Donate link: https://bookingpressplugin.com/
 Requires at least: 5.3.0
 Tested up to: 6.4.2
 Requires PHP: 5.6
-Stable tag: 1.0.79
+Stable tag: 1.0.80
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,8 +27,8 @@ Anyone who wants to manage their appointment scheduling online can use this plug
 * **🩺 [Medical & Clinics](https://www.bookingpressplugin.com/doctor-appointment-scheduling-software/ "Appointment Booking Plugin for Doctors")** (Doctors Appointment, clinics, medical centers, dentists, clinic booking system, and other areas related to medical & clinic business.)
 * **💼 Professional Services** (consultants, real estate agent, lawyers, photographers, dealers, Wedding Planners, Handyman services, Plumber Service, tattoo parlour, contractor, swimming pool booking service)
 * **📚 [Education](https://www.bookingpressplugin.com/scheduling-software-for-school-tutors-coaches/ "WordPress Scheduling Plugin for Tutors")** (tutors, education centers, coaching centers, private professionals, language schools, language lessons appointments,  booking, private tutor, driving school appointment booking, seminar, webinar booking)
-* **🛥️ Equipment and transport rental** ([car rental booking system](https://www.bookingpressplugin.com/car-rental-booking-software/ "Car Rental Booking System"), bike rental, boat rental, yacht booking, technics booking, or any other kind of hourly or day rental service business)
-* **🚗 [Service & Maintenance](https://www.bookingpressplugin.com/scheduling-software-for-maintenance-repair/ "Online Booking System for Maintenance & Repair Shops")** (car service, cleaning, vehicle repairment, garage, bike service, heavy vehicle repairing service)
+* **🛥️ Equipment and transport rental** ([car rental booking system](https://www.bookingpressplugin.com/car-rental-booking-software/ "Car Rental Booking System"), bike rental, [boat rental](https://www.bookingpressplugin.com/boat-rental-software), yacht booking, technics booking, or any other kind of hourly or day rental service business)
+* **🚗 [Service & Maintenance](https://www.bookingpressplugin.com/scheduling-software-for-maintenance-repair/ "Online Booking System for Maintenance & Repair Shops")** (car service, [cleaning service](https://www.bookingpressplugin.com/cleaning-service-scheduling-software), vehicle repairment, garage, bike service, heavy vehicle repairing service)
 
 [BookingPress](https://www.bookingpressplugin.com/ "BookingPress - Appointment Booking Plugin") provides a super easy interface hence no coding or design skills are required to add BookingPress into your website. Set up the plugin and start accepting booking with BookingPress WordPress Booking Plugin in just a blink of an eye.
 
@@ -77,6 +77,7 @@ Note: BookingPress lite has many cool features than other free WordPress booking
 * 📽️ Integrations with Zoom, Zapier, Mailchimp, Google ReCaptcha.
 * 📍 Manage Unlimited Business location
 * 😀 Happy Hours (Dynamic) Pricing
+* 📦 Service Package (create packages of multiple services)
 * 📙 Multi-language support
 * 📊 Conversion tracking
 * 🔄 Recurring Appointments
@@ -97,6 +98,8 @@ Note: BookingPress lite has many cool features than other free WordPress booking
 [Invoice](https://www.bookingpressplugin.com/documents/invoice/ "BookingPress - Appointment Booking Plugin") - A business owner has a lot on their plate, so manually creating invoices could take up a lot of your time. It can be simple to generate invoices automatically, gather orders, and manage your finances by using an invoice addon.
 
 [Unlimited Multi-Location](https://www.bookingpressplugin.com/addon/location-addon/) - It is a crucial feature for service-based businesses, such as spas and salons, that have multiple locations. The Multi-location feature empowers customers by granting them the flexibility to book appointments at their nearest or preferred location. Utilizing the Location Addon, businesses can elevate their customer experience by offering a streamlined booking process that caters to each specific business location.
+
+[Service Package](https://www.bookingpressplugin.com/addon/service-package-addon/) - The BookingPress Service Package Addon empowers you to create a package of various services, enabling you to provide customers with discounted rates on the overall package, thus enticing a larger clientele.
 
 [Cart Addon](https://www.bookingpressplugin.com/documents/cart-addon/ "BookingPress - Appointment Booking Plugin") - By using the Cart Addon, you can also allow your customers to choose several services at once.
 
@@ -196,6 +199,12 @@ Please follow the steps for installation:
 13. BookingPress - General Settings
 
 == Changelog ==
+
+= 1.0.80 =
+* Fixed: backend date range picker is not proper in mobile view
+* Fixed: backend calendar rendering issue with first day of week set to 'Sunday'
+* Frontend Optimization
+* Other minor bug fixes
 
 = 1.0.79 =
 * Fixed: Datepicker doesn't translated correctly for Swedish language

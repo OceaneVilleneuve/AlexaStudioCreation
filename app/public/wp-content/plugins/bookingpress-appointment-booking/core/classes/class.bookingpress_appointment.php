@@ -1360,25 +1360,17 @@ if (! class_exists('bookingpress_appointment') ) {
                     }
 
                     $appointment['bookingpress_service_duration_sortable'] = $bookingpress_sortable_duration_val;
-
-                    if ($service_duration_unit == 'm' ) {
-
-                        if($service_duration == 1){
-                            $service_duration .= ' ' . esc_html__('Min', 'bookingpress-appointment-booking');
-                        }
-                        else{
-                            $service_duration .= ' ' . esc_html__('Mins', 'bookingpress-appointment-booking');
-                        }
-
-                    } else if( 'd' == $service_duration_unit ){
+                    if($service_duration_unit != 'd') {
+                        $bookingpress_appointment_start_datetime = $get_appointment['bookingpress_appointment_date'].' '.$get_appointment['bookingpress_appointment_time'];
+                        $bookingpress_appointment_end_datetime = $get_appointment['bookingpress_appointment_date'].' '.$get_appointment['bookingpress_appointment_end_time'];
+                        $service_duration = $this->bookingpress_get_appointment_duration($bookingpress_appointment_start_datetime, $bookingpress_appointment_end_datetime);
+                    } else {
                         if( 1 == $service_duration ){
                             $service_duration .= ' ' . esc_html__('Day', 'bookingpress-appointment-booking');
                         } else {   
                             $service_duration .= ' ' . esc_html__('Days', 'bookingpress-appointment-booking');
-                        }
-                    } else {
-                        $service_duration .= ' ' . esc_html__('Hours', 'bookingpress-appointment-booking');
-                    }
+                        }                        
+                    }  
                     $appointment['appointment_duration'] = $service_duration;
                     $currency_name                       = $get_appointment['bookingpress_service_currency'];
                     $currency_symbol                     = $BookingPress->bookingpress_get_currency_symbol($currency_name);
@@ -1531,6 +1523,44 @@ if (! class_exists('bookingpress_appointment') ) {
             wp_send_json($response);
         }
 
+        function bookingpress_get_appointment_duration($appointment_start_datetime, $appointment_end_datetime){
+            $service_duration = '';
+            if(empty($appointment_start_datetime) || empty($appointment_end_datetime)){
+                return $service_duration;
+            }
+            $bookingpress_tmp_start_datetime = new DateTime($appointment_start_datetime);
+            $bookingpress_tmp_end_datetime = new DateTime($appointment_end_datetime);
+            $booking_date_interval = $bookingpress_tmp_start_datetime->diff($bookingpress_tmp_end_datetime);
+            $bookingpress_minute = $booking_date_interval->format('%i');
+            $bookingpress_hour = $booking_date_interval->format('%h');
+            $bookingpress_days = $booking_date_interval->format('%d');
+
+            if($bookingpress_minute > 0) {
+                $display_formatted_time = true;
+                if( $bookingpress_minute == 1 ){
+                    $service_duration = $bookingpress_minute.' ' . esc_html__('Min', 'bookingpress-appointment-booking'); 
+                }else{
+                    $service_duration = $bookingpress_minute.' ' . esc_html__('Mins', 'bookingpress-appointment-booking'); 
+                }
+            }
+            
+            if($bookingpress_hour > 0 ) {
+                $display_formatted_time = true;
+                if($bookingpress_hour == 1){
+                    $service_duration = $bookingpress_hour.' ' . esc_html__('Hour', 'bookingpress-appointment-booking').' '.$service_duration;
+                }else{
+                    $service_duration = $bookingpress_hour.' ' . esc_html__('Hours', 'bookingpress-appointment-booking').' '.$service_duration;
+                }
+            }
+
+            if($bookingpress_days == 1) {
+                $service_duration = '24 ' . esc_html__('Hours', 'bookingpress-appointment-booking');
+            }
+            if($bookingpress_days > 1) {
+                $service_duration = $bookingpress_days.' ' . esc_html__('Days', 'bookingpress-appointment-booking'); 
+            }
+            return $service_duration;
+        }
     }
 }
 
