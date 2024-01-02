@@ -23,6 +23,8 @@ function alexastudiocreation_get_theme_instance() {
     \ALEXASTUDIOCREATION_THEME\Inc\ALEXASTUDIOCREATION_THEME::get_instance();
 }
 
+add_theme_support(  'post-thumbnails' );
+
 add_action('after_setup_theme', 'alexastudiocreation_get_theme_instance');
 
 // Enqueue des scripts
@@ -61,6 +63,7 @@ function add_id_for_prestations() {
 function add_seasons_for_custom_front_page_button() {
   wp_enqueue_script('seasons-config', get_stylesheet_directory_uri() . '/inc/js/seasons.js', array('jquery'), null, true);
 }
+
 
 
 

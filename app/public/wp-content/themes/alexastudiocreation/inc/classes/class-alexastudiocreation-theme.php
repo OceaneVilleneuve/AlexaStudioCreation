@@ -26,6 +26,7 @@ class ALEXASTUDIOCREATION_THEME {
 
   protected function setup_hooks() {
 
+
     /**
      * Actions.
      */
@@ -33,9 +34,9 @@ class ALEXASTUDIOCREATION_THEME {
   }
 
   public function setup_theme() {
-    add_theme_support( 'title-tag' );
+    // error_log('Hello');
 
-    add_theme_support( 'post-thumbnails' );
+    add_theme_support( 'title-tag' );
 
     add_theme_support( 'customize-selective-refresh-widgets' );
 
@@ -56,7 +57,6 @@ class ALEXASTUDIOCREATION_THEME {
 
     add_editor_style();
     add_theme_support( 'wp-block-styles' );
-    add_theme_support(  'posr-thumbnails' );
 
     /**
      * Register image sizes.
